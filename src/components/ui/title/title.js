@@ -4,6 +4,7 @@ const TitleSize = {
   BIG: 'big',
   MEDIUM: 'medium',
   SMALL: 'small',
+  EXTRA_SMALL: 'extra_small',
 };
 
 const TitleSizeValue = {
@@ -17,11 +18,15 @@ const TitleSizeValue = {
   },
   [TitleSize.SMALL]: {
     fontSizeDesktop: '28px',
-    fontSizeMobile: '28px',
+    fontSizeMobile: '21px',
+  },
+  [TitleSize.EXTRA_SMALL]: {
+    fontSizeDesktop: '12px',
+    fontSizeMobile: '9px',
   },
 };
 
-const StyledTitle = styled.h1`
+const Title = styled.h1`
   margin: 0;
   padding: 0;
   font-weight: 400;
@@ -29,9 +34,18 @@ const StyledTitle = styled.h1`
   ${(props) => {
     const values = TitleSizeValue[props.size || TitleSize.MEDIUM];
     return css`
-      font-size: ${values.fontSize};
+      font-size: ${values.fontSizeMobile};
     `;
   }};
+
+  @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
+    ${(props) => {
+      const values = TitleSizeValue[props.size || TitleSize.MEDIUM];
+      return css`
+        font-size: ${values.fontSizeDesktop};
+      `;
+    }};
+  }
 `;
 
-export { StyledTitle, TitleSize };
+export { Title, TitleSize };

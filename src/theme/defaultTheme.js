@@ -2,6 +2,7 @@ export const defaultTheme = {
   fontFamily: '"Raleway", "Arial", sans-serif',
   basicWhite: '#ffffff',
   altColor: '#adadad',
+  simpleButtonColor: '#181616',
   fontSizeDesktop: '15px',
   fontSizeMobile: '11px',
   lineHieghtDefault: 'normal',
@@ -10,4 +11,7 @@ export const defaultTheme = {
   contentWidthDesktop: '1200px',
   indentMobile: '20px',
   indentDesktop: '25px',
+  bgBlueColor: 'rgba(0, 56, 255, 0.58)',
+  bgPinkColor: 'rgba(183, 0, 187, 0.58)',
+  bgPurpleColor: 'rgba(151, 71, 255, 0.58)',
 };

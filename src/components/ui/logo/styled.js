@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 const LogoSize = {
-  STANDARD: 'medium',
+  STANDARD: 'standard',
   SMALL: 'small',
 };
 
@@ -11,8 +11,8 @@ const LogoSizeValue = {
     desktop: '291px',
   },
   [LogoSize.SMALL]: {
-    mobile: '28px',
-    desktop: '28px',
+    mobile: '75px',
+    desktop: '45px',
   },
 };
 

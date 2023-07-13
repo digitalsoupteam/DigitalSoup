@@ -1,14 +1,15 @@
 import React from 'react';
-import { Wrapper } from './styled';
 import Header from '../header/header';
+import Footer from '../footer/footer';
 import Main from '../../pages/main-page/main-page';
 
 const pageWrapper = () => {
   return (
-    <Wrapper>
+    <>
       <Header />
       <Main />
-    </Wrapper>
+      <Footer />
+    </>
   );
 };
 

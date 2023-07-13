@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 const StyledNav = styled.nav`
-  width: 100%;
   display: flex;
   justify-content: center;
 
@@ -16,7 +15,7 @@ const NavList = styled.ul`
   justify-content: space-between;
   gap: 43px;
   padding: 28px 0;
-  margin: 0 75px;
+  margin: 0;
 
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
     gap: 87px;
