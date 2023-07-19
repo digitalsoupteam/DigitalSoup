@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Ul from '../../../elements/ul';
 
 const StyledNav = styled.nav`
   display: flex;
@@ -9,12 +10,11 @@ const StyledNav = styled.nav`
   }
 `;
 
-const NavList = styled.ul`
+const NavList = styled(Ul)`
   list-style: none;
   display: flex;
   justify-content: space-between;
   gap: 43px;
-  padding: 28px 0;
   margin: 0;
 
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {

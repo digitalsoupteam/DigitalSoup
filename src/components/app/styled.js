@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
+    overflow-x: hidden;
     background-color: ${(props) => props.theme.backgroundColor};
     font-family: ${(props) => props.theme.fontFamily};
     font-size: ${(props) => props.theme.defaultFontSizeMobile};

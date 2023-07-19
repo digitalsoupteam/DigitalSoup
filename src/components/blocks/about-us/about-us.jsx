@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { useInView } from 'react-intersection-observer';
 import Wrapper from '../../layout/wrapper/wrapper';
 import {
   StyledAboutUs,
@@ -17,11 +18,24 @@ import Photo from '../../../assets/nik-photo.png';
 import BackgroundCircle from '../../../elements/background';
 
 const AboutUs = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  const [hasAnimated, setHasAnimated] = useState(false);
+  const [refPhoto, inView] = useInView();
+
+  useEffect(() => {
+    if (inView && !hasAnimated) {
+      setIsVisible(true);
+      setHasAnimated(true);
+    }
+  }, [inView, hasAnimated]);
+
   return (
     <Wrapper>
       <StyledAboutUs>
         <Description>
-          <Title size={TitleSize.MEDIUM}>A few words about us</Title>
+          <Title size={TitleSize.MEDIUM} as={'h2'}>
+            A few words about us
+          </Title>
           <DescriptionText>
             Idea of this project appeared on the basis of our already existing
             marketing agency founded in 2017. After working on the promotion of
@@ -35,18 +49,26 @@ const AboutUs = () => {
         </Description>
         <Bio>
           <BioLogo size={LogoSize.SMALL} />
-          <BioPhoto src={Photo}></BioPhoto>
-          <BioTitle>CEO Nik Daszewski</BioTitle>
+          <BioPhoto
+            src={Photo}
+            width="202"
+            height="202"
+            alt="CEO Nik Daszewski"
+            ref={refPhoto}
+            className={`animated-element ${isVisible ? 'visible' : ''}`}
+          ></BioPhoto>
+          <BioTitle as={'h3'}>CEO Nik Daszewski</BioTitle>
           <BioText>
-            In smm since 2015
+            In SMM since 2015
             <br />
-            In development since 2021
+            In Development since 2021
           </BioText>
-          <Button simple>Let's talk</Button>
+          <Button simple={true} link="https://t.me/dashewski" target="_blank">
+            Let's talk
+          </Button>
         </Bio>
         <BackgroundCircle
           $top={{ mobile: '114px', desktop: '-342px' }}
-          // $top={{ mobile: '40px', desktop: '-342px' }}
           $bottom={{ mobile: 'auto', desktop: 'auto' }}
           $left={{ mobile: 'auto', desktop: '25px' }}
           $right={{ mobile: '-8px', desktop: 'auto' }}
@@ -57,7 +79,6 @@ const AboutUs = () => {
         />
         <BackgroundCircle
           $top={{ mobile: '244px', desktop: '-280px' }}
-          // $top={{ mobile: '170px', desktop: '-280px' }}
           $bottom={{ mobile: 'auto', desktop: 'auto' }}
           $left={{ mobile: 'auto', desktop: '198px' }}
           $right={{ mobile: '-7px', desktop: 'auto' }}

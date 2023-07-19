@@ -1,8 +1,18 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { Title } from '../../ui/title/title';
 import Text from '../../ui/text/text';
 import { Logo } from '../../ui/logo/logo';
 import Image from '../../../elements/image';
+
+const bioPhotoAnimation = keyframes`
+from {
+  opacity: 0;
+  transform: translateX(10%);
+} to {
+  opacity: 100%;
+  transform: translateX(0);
+}
+`;
 
 const StyledAboutUs = styled.div`
   position: relative;
@@ -69,6 +79,14 @@ const BioPhoto = styled(Image)`
   left: -19px;
   width: 200px;
   height: 200px;
+  opacity: 0;
+
+  &.visible {
+    animation-name: ${bioPhotoAnimation};
+    animation-fill-mode: forwards;
+    animation-duration: 800ms;
+    animation-timing-function: ease-in-out;
+  }
 
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
     width: 270px;

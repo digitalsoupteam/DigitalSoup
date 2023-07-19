@@ -44,6 +44,7 @@ const ServicesList = styled(Ul)`
     padding: 0 28px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: start;
     gap: 55px 94px;
     margin: 0;
   }

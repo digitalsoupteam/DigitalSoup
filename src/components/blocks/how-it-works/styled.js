@@ -1,9 +1,11 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import P from '../../../elements/p';
 import Ul from '../../../elements/ul';
 import { Title } from '../../ui/title/title';
 import arrowLong from '../../../assets/arrow-long.svg';
 import TextSpacing from '../../ui/text-spacing/text-spacing';
+import ArcMobile from '../../../assets/arc-dotted--mobile.svg';
+import ArcDesktop from '../../../assets/arc-dotted--desktop.svg';
 
 const StyledHowItWorks = styled.div`
   padding: 30px 0 58px;
@@ -21,12 +23,7 @@ const Intro = styled.div`
 `;
 
 const IntroTitle = styled(Title)`
-  width: 233px;
   margin: 0 auto;
-
-  @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
-    width: auto;
-  }
 `;
 
 const IntroText = styled(TextSpacing)`
@@ -49,6 +46,66 @@ const Circles = styled.div`
     height: 388px;
     margin-top: 87px;
   }
+`;
+
+const CirclesText = styled(TextSpacing)`
+  position: absolute;
+  top: 55px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: ${(props) => props.theme.lineHieghtDefault};
+
+  @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
+    top: 31px;
+    letter-spacing: 3.6px;
+    font-size: 15px;
+  }
+`;
+
+const Arc = styled.div`
+  position: absolute;
+  width: 229px;
+  height: 66px;
+  background-image: url(${ArcMobile});
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  ${(props) =>
+    props.$top
+      ? css`
+          top: 60px;
+          left: 110px;
+          transform: rotate(35deg);
+
+          @media screen and (min-width: ${props.theme.contentWidthDesktop}) {
+            top: 12px;
+            width: 337px;
+            height: 98px;
+            background-image: url(${ArcDesktop});
+            transform: rotate(0);
+          }
+        `
+      : null}
+  ${(props) =>
+    props.$bottom
+      ? css`
+          top: 220px;
+          left: 0px;
+          transform: rotate(215deg);
+
+          @media screen and (min-width: ${props.theme.contentWidthDesktop}) {
+            top: 290px;
+            left: 110px;
+            width: 337px;
+            height: 98px;
+            background-image: url(${ArcDesktop});
+            transform: rotate(180deg);
+          }
+        `
+      : null}
 `;
 
 const Steps = styled.div`
@@ -85,6 +142,9 @@ const StepsItem = styled.li`
   gap: 5px;
 
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
+    &:last-child {
+      margin-left: 30px;
+    }
     gap: 6px;
   }
 `;
@@ -119,8 +179,13 @@ const Description = styled.div`
     display: grid;
     text-align: start;
     grid-template-columns: 380px 1fr;
-    column-gap: 169px;
+    grid-template-rows: 1fr min-content;
+    gap: 36px 169px;
   }
+`;
+
+const DescriptionIntro = styled(TextSpacing)`
+  line-height: 170%;
 `;
 
 const DescriptionText = styled.div`
@@ -131,6 +196,7 @@ const DescriptionText = styled.div`
   margin-bottom: 32px;
 
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
+    margin: 0;
     grid-row: span 2;
     text-align: start;
   }
@@ -142,11 +208,14 @@ export {
   IntroTitle,
   IntroText,
   Circles,
+  CirclesText,
+  Arc,
   Steps,
   StepsList,
   StepsItem,
   Count,
   StepsText,
   Description,
+  DescriptionIntro,
   DescriptionText,
 };

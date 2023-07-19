@@ -1,18 +1,19 @@
 import React from 'react';
-import { StyledNav, NavList, NavItem, Link } from './styled';
+import { StyledNav, NavList, NavItem } from './styled';
+import StyledLink from '../../ui/link/link';
 
 const Navigation = () => {
   return (
     <StyledNav>
       <NavList>
         <NavItem>
-          <Link href={'#about'}>About</Link>
+          <StyledLink to="about">About</StyledLink>
         </NavItem>
         <NavItem>
-          <Link href={'#cases'}>Cases</Link>
+          <StyledLink to="cases">Cases</StyledLink>
         </NavItem>
         <NavItem>
-          <Link href={'#contacts'}>Contacts</Link>
+          <StyledLink to="contacts">Contacts</StyledLink>
         </NavItem>
       </NavList>
     </StyledNav>

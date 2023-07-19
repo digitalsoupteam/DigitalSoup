@@ -1,0 +1,291 @@
+[
+  {
+    "id": "electra",
+    "title": "Electra",
+    "prview_image": "/uploads/cases/electra/preview.png",
+    "tags": ["NFT", "Solidity smart-contracts", "Business", "Web3", "SMM"],
+    "short": "The creation of a micro-investment platform, designed as an electric transport NFT marketplace, has been accompanied by the launch of its own token.",
+    "intro_image": "/uploads/cases/electra/intro.png",
+    "ending_text": "But this is not the end, now we are developing the design of the Electra marketplace and the visual component of the service, we will soon complete this case!",
+    "text_blocks": [
+      {
+        "title": "Investment web3 project based on real business",
+        "text": [
+          "The electra company is engaged in the sharing of electric vehicles (from scooters to cars) through its own application. They install and maintain vehicles, as well as provide service support for the sharing application in many warm countries of the world.",
+          "Before that, only large investors could invest in their project, but we came up with an excellent solution for them, which will allow them to collect investments from users, attracting more money to the company and giving these users the opportunity to earn with them by receiving crypto-income based on real business.",
+          "Our idea was to allow users from all over the world to easily invest in the purchase of real vehicles of the Electra project by buying their NFT equivalent. And Electra would pay income from the operation of this technique to NFT holders. This is a convenient way for a company to receive investments in its project without unnecessary difficulties from any person, and for users to receive dividends in crypto from a real business."
+        ]
+      },
+      {
+        "title": "From several ideas, we chose the best",
+        "text": [
+          "Project allows the user to purchase NFT Electra (in any amount), NFT is the key to receive the staking reward. With the money raised from NFT, Electra puts real equipment into operation in one of the regions of stay.",
+          "The user can choose one of two types of staking: stable (receiving a stable % of income for the purchase of NFT) and flex (receiving a part of the income from equipment purchased in the form of NFT every month).",
+          "The main and most interesting type of staking is the more risky Flex, but the yield on flex can reach 60% per annum. For the company and for the user, this is an interesting mechanic. Income data is open and official, so the project cannot deceive users either.",
+          "In addition to creating the main structure, sub-structures were prepared that are responsible for the details of interaction and other contracts."
+        ]
+      },
+      {
+        "title": "What does the project look like now?",
+        "text": [
+          "Now user selects and can change the type of rewards. NFTs have a lifetime equivalent to real vehicles, after which the used NFT can be returned to Electra for a fraction of the cost.",
+          "User can exchange or sell NFTs on the OTC market at any time. Either sell it back to Electra after two years of ownership.",
+          "User receives the reward in ELCT tokens, which he can easy buy or sell on the Electra marketplace website at any time. ECLT is available for exchange for USDT, USDC, BUSD, BNB. In addition, the user can stake the received ELCTs at a small percentage to increase their own profits from the Electra project."
+        ]
+      }
+    ],
+    "gallery": [
+      [
+        {
+          "src": "/uploads/cases/electra/gallery-1.png",
+          "title": "Types of staking",
+          "description": "After the tests, we finalized the logic of some elements of the project and added new features. For example, they gave the user the opportunity to change the Flex or Stable staking format at any time, choosing the most profitable format for themselves."
+        },
+        {
+          "src": "/uploads/cases/electra/gallery-2.png",
+          "title": "Planning the project",
+          "description": "The project consists of several parts: creating the project structure and writing the code, designing the project, and building the NFT platform. We started, of course, by drawing up the structure of the project."
+        }
+      ],
+      [
+        {
+          "src": "/uploads/cases/electra/gallery-3.png",
+          "title": "Coding",
+          "description": "In a few weeks, we created all the necessary smart contracts and covered them with tests, and also worked on the security of the project. We also made a contract for the tokens of the Electra project - ELCT."
+        },
+        {
+          "src": "/uploads/cases/electra/gallery-4.png",
+          "title": "Types of staking",
+          "description": "After the tests, we finalized the logic of some elements of the project and added new features. For example, they gave the user the opportunity to change the Flex or Stable staking format at any time, choosing the most profitable format for themselves."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "gato-ecosystem",
+    "title": "Gato ecosystem",
+    "prview_image": "/uploads/cases/gato_ecosystem/preview.png",
+    "tags": [
+      "SMM",
+      "Web3",
+      "Community management",
+      "Design",
+      "Solidity smart-contracts"
+    ],
+    "short": "Design, promotion, development and community management for the Gato ecosystem and their unique diamond backed stablecoin.",
+    "intro_image": "/uploads/cases/gato_ecosystem/intro.png",
+    "ending_text": "Follow the news, the case will be supplemented",
+    "text_blocks": [
+      {
+        "title": "Product ecosystem and Diamond's stablecoin development",
+        "text": [
+          "The Gato ecosystem includes several separate large elements at once. First of all, this is a separate EVM L1 Blockchain, on which a number of products are being developed by Gato.",
+          "The first product that is useful for both ordinary users and businesses is the GUDS stablecoin. GUDS is a stablecoin backed by a diamond, which makes it as stable as possible, the diamond is constantly rising in price against the dollar, so GUDS is backed by more than tokens issued. It is thanks to this provision that GUDS can also be staked at 20% per annum, which other stablecoins cannot afford.",
+          "Our task as part of the work with the project was the development, promotion, as well as community management. In addition, a large volume of development tasks is planned, which we will deal with."
+        ]
+      },
+      {
+        "title": "What we have prepared for the start",
+        "text": [
+          "We have created all the necessary social networks for the project: telegram chat, discord - to communicate with the community.: telegram chat, discord - to communicate with the community. Project channels and separate channels for GUDS in telegram and twitter, as well as reddit and medium for the entire project. To promote business tokenization service - LinkedIn.",
+          "First of all, it is necessary to promote the GUDS stablecoin, because it is coming out very soon, so we needed to prepare posts for social networks that would reveal the essence of the product, its advantages and capabilities in stages.",
+          "Additionally, we have concluded all essential preparations required for launching advertising campaigns to promote the product across various networks."
+        ]
+      },
+      {
+        "title": "How did we prepare for the launch of advertising?",
+        "text": [
+          "In addition to beautiful posts, it is equally important to be prepared in advance to work with traffic coming from advertising. We have prepared the necessary discord rooms, because we plan to centralize the community from all social networks there.",
+          "To increase the effectiveness of advertising, we created a ladder on Zealy, a service where you can perform tasks for users: post a post about us, install our wallet, subscribe to all accounts, and the system tracks these actions, giving users points for completing tasks.",
+          "Referral tasks, like invite friends, greatly increase the result of advertising, because an individual can bring his friends, multiplying the effect of advertising. Of course, those who score the most points in Zealy receive a drop from the project, we also wrote this in the advertisement."
+        ]
+      },
+      {
+        "title": "Product development around GUDS",
+        "text": [
+          "Within the Gato ecosystem, there were existing products ready or under development by another department of our company. Our focus revolved around the ecosystem elements around GUDS.",
+          "Development plans: wallet, exchanger, staking GUDS and a separate site for pre-order. First, you need to make a pre-order, in which people can pay in advance for the GUDS stablecoin, as part of the pre-order, buyers receive a separate drop of GATO coins.",
+          "Our approach entailed the following: considering the absence of a project bridge, the optimal idea was to collect pre-order payments through other networks, as well as fiat payments on a separate service. Then, we would leverage a combination of a bot, events, and a database to accumulate user data and facilitate the distribution of the drop."
+        ]
+      }
+    ],
+    "gallery": [
+      [
+        {
+          "src": "/uploads/cases/gato_ecosystem/gallery-1.png",
+          "title": "Communication with our client",
+          "description": "To begin with, we always organize chats with the customer so that, in addition to Zoom conferences for reviewing code or tasks, we can answer a question or ask our own questions 24/7, as well as inform about the development stages."
+        },
+        {
+          "src": "/uploads/cases/gato_ecosystem/gallery-2.png",
+          "title": "Planning the project",
+          "description": "The project consists of several parts: creation and maintenance of social networks, activity in social networks, preparation and launch of promo, as well as the formation of a development plan and implementation."
+        }
+      ],
+      [
+        {
+          "src": "/uploads/cases/gato_ecosystem/gallery-3.png",
+          "title": "",
+          "description": "We've made various community-friendly posts with hyperlinks, beautiful project-style animated images. We have added similar navigation elements to Discord. Unfortunately, we can't do that on Twitter."
+        },
+        {
+          "src": "/uploads/cases/gato_ecosystem/gallery-4.png",
+          "title": "",
+          "description": "We've been using artificial intelligence for post creation, generating images for various projects at MidJorney. If needed, our designer provides final touches."
+        }
+      ],
+      [
+        {
+          "src": "/uploads/cases/gato_ecosystem/gallery-5.png",
+          "title": "Discord",
+          "description": "In Discord rooms, which are seamlessly integrated into our traffic system, there are numerous possibilities. For instance, we have established an automatic faucet for test tokens and implemented wallet integration for our contests."
+        },
+        {
+          "src": "/uploads/cases/gato_ecosystem/gallery-6.png",
+          "title": "Zealy",
+          "description": "This tool is one of the most important when advertising the launch of any project. An intuitive ladder system motivates users to accomplish tasks, while creatively designed tasks enhance the impact of advertising."
+        }
+      ],
+      [
+        {
+          "src": "/uploads/cases/gato_ecosystem/gallery-7.png",
+          "title": "System planning",
+          "description": "Users in different networks participate in pre-order by sending money to a smart contract, fiat payments are made through the stripe service. These elements send an event to the database. It collects information about payments and wallets of users."
+        },
+        {
+          "src": "/uploads/cases/gato_ecosystem/gallery-8.png",
+          "title": "Simpliest way to send guds",
+          "description": "Later we can parse this database and, based on the necessary data, use a pre-written bot to distribute GUDS tokens already in the Gato Chain network. This solution is the only optimal one due to the lack of a cross-chain bridge at the moment."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "foot-city",
+    "title": "Foot City",
+    "prview_image": "/uploads/cases/foot_city/preview.png",
+    "tags": ["NFT", "Design", "Web3"],
+    "short": "Nothing supernatural. Our task was to quickly and beautifully draw a design for the NFT project website and the NFTs themselves in the bigfoot theme.",
+    "intro_image": "/uploads/cases/foot_city/intro.png",
+    "is_exception": "true",
+    "text_blocks": [
+      {
+        "title": "Website development and NFT rendering",
+        "text": [
+          "The site design you are currently viewing was initially created entirely by hand before being digitized for further refinement. Additionally, we have made an NFT collection, and would like to present a selection of them to you."
+        ],
+        "img": "/uploads/cases/foot_city/text-img-1.png"
+      },
+      {
+        "title": "We hand-drew screen after screen, turning them into beautiful art later on.",
+        "text": "",
+        "img": "/uploads/cases/foot_city/text-img-2.png"
+      }
+    ],
+    "gallery": [
+      [
+        {
+          "src": "/uploads/cases/oone_world/gallery-1-2-3-4.png",
+          "title": "Cant publish because of NDA",
+          "description": ""
+        },
+        {
+          "src": "/uploads/cases/oone_world/gallery-1-2-3-4.png",
+          "title": "Cant publish because of NDA",
+          "description": ""
+        },
+        {
+          "src": "/uploads/cases/oone_world/gallery-1-2-3-4.png",
+          "title": "Cant publish because of NDA",
+          "description": ""
+        },
+        {
+          "src": "/uploads/cases/oone_world/gallery-1-2-3-4.png",
+          "title": "Cant publish because of NDA",
+          "description": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "oone-world",
+    "title": "Oone-world",
+    "prview_image": "/uploads/cases/oone_world/preview.png",
+    "tags": ["SMM", "Community management", "Development Consulting", "Design"],
+    "short": "Design, promotion and community management for the OONE WORLD project. Sustainable ecosystem with its own blockchain and Drive&Earn applications on it.",
+    "intro_image": "/uploads/cases/oone_world/intro.png",
+    "ending_text": "Follow the news, the case will be supplemented",
+    "text_blocks": [
+      {
+        "title": "Development a sustainable product ecosystem",
+        "text": [
+          "The Oone world project stands on the side of sustainable development and eco-friendly projects. One of the main differences of the project is the presence of its own blockchain, on which several Drive & Earn applications are developed, for business and for ordinary drivers.",
+          "This applications are aimed at changing the behavior of users while riding, as well as reducing the carbon layer and forming carbon offsets. As part of the application for drivers - the application rewards them for driving correctly at high speeds, saving their fuel consumption and reducing carbon emissions several times.",
+          "The functionality of the Fleet management system application for business is much wider. Fleet management system allows you to fully control your truck fleet, show excessive fuel consumption, encourage drivers to drive carefully with awards, which reduces the risk of accidents and excessive fuel consumption, and also forms carbon offsets.",
+          "In this project, we needed to develop the social networks of the project, conduct promotions, and also provide advisory assistance in the development stages, coin offers, and tokenomics."
+        ]
+      },
+      {
+        "title": "Preparations for a Strong Start",
+        "text": [
+          "For the work of the project, we have created social networks in all areas: a common twitter and telegram, where we talk about all the news of the project, as well as separate application communities for drivers, as well as for the fleet management system.",
+          "In addition, we made a general discord, channels in reddit, medium, and separately to promote the business product Fleet management system - LinkedIn. Within which there will be a search for potential customers of the product.",
+          "Initially, we made a separate design kit for the project, developed by hand, but after several approvals, we came to the conclusion that it is better and more interesting to do a fully AI-generated design, which turned out great."
+        ]
+      },
+      {
+        "title": "What's next?",
+        "text": [
+          "We needed to think about how to attract subscribers and, in principle, increase the visibility of the project, for this we prepared a number of contests with a prize drop in the form of USDT.",
+          "To increase the effectiveness of this action, we made a ladder in Zealy (Crew3 at that time), in which we could create tasks by type: invite your friends, make a post about us, for this users received points that moved them in the rating, we distributed the best project gifts.",
+          "Next, we used the social networks with the highest potential for organic traffic - twitter. We have collected a huge database of accounts suitable for us on the subject and daily made dozens of comments, retweets, likes to them, which gave an influx of attention in our direction."
+        ]
+      },
+      {
+        "title": "Advertising and project development",
+        "text": [
+          "The next steps were the preparation of advertising to attract subscribers to waiting for applications and the development of the Fleet management system business area. We are unable to disclose the specifics of our database collection and activities at LinkedIn due to the NDA.",
+          "In addition, we conducted an audit of tokenomics and whitepapper, and also helped with legal aspects in anticipation of preparing for the release of products. We hope that soon users will be able to evaluate these truly interesting, useful and interactive solutions."
+        ]
+      }
+    ],
+    "gallery": [
+      [
+        {
+          "src": "/uploads/cases/oone_world/gallery-1-2-3-4.png",
+          "title": "Cant publish because of NDA",
+          "description": "To begin with, we always organize chats with the customer so that, in addition to Zoom conferences for reviewing code or tasks, we can answer a question or ask our own questions 24/7, as well as inform about the development stages."
+        },
+        {
+          "src": "/uploads/cases/oone_world/gallery-1-2-3-4.png",
+          "title": "Cant publish because of NDA",
+          "description": "The project consists of several parts: creation and preparation of all social networks, design, preparation of a convenient infrastructure for working with users."
+        }
+      ],
+      [
+        {
+          "src": "/uploads/cases/oone_world/gallery-1-2-3-4.png",
+          "title": "",
+          "description": "Within our communities, we've crafted interesting and interactive posts aimed at fostering a comprehensive understanding of the project's idea. Our goal is to enable every individual who joins the project's social networks to quickly acquaint themselves with its essence."
+        },
+        {
+          "src": "/uploads/cases/oone_world/gallery-1-2-3-4.png",
+          "title": "",
+          "description": "Within our communities, we've crafted interesting and interactive posts aimed at fostering a comprehensive understanding of the project's idea. Our goal is to enable every individual who joins the project's social networks to quickly acquaint themselves with its essence."
+        }
+      ],
+      [
+        {
+          "src": "/uploads/cases/oone_world/gallery-5.png",
+          "title": "Discord",
+          "description": "We planned to collect all traffic in the discord, as the most convenient means for centralizing all users of the community and interacting with them."
+        },
+        {
+          "src": "/uploads/cases/oone_world/gallery-6.png",
+          "title": "Zealy",
+          "description": "This tool is one of the most important when advertising the launch of any project. An intuitive ladder system motivates users to accomplish tasks, while creatively designed tasks enhance the impact of advertising."
+        }
+      ]
+    ]
+  }
+]

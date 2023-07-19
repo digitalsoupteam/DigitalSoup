@@ -1,6 +1,6 @@
 import React from 'react';
 import { ReactComponent as LogoImage } from '../../../assets/logo.svg';
-import { StyledLogo, StyledHeaderLogo } from './styled';
+import { StyledLogo, StyledHeaderLogo, StyledHeaderLink } from './styled';
 
 const Logo = ({ size, className }) => {
   return (
@@ -10,8 +10,12 @@ const Logo = ({ size, className }) => {
   );
 };
 
-const HeaderLogo = ({ children }) => {
-  return <StyledHeaderLogo>{children}</StyledHeaderLogo>;
+const HeaderLogo = ({ children, isHome }) => {
+  return (
+    <StyledHeaderLink to="/" isHome={isHome}>
+      <StyledHeaderLogo>{children}</StyledHeaderLogo>
+    </StyledHeaderLink>
+  );
 };
 
 export { Logo, HeaderLogo };

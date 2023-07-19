@@ -9,13 +9,16 @@ const Idea = () => {
   return (
     <Wrapper>
       <StyledIdea>
-        <Title size={TitleSize.BIG}>If you have an idea</Title>
+        <Title size={TitleSize.BIG} as={'h2'}>
+          If you have an idea
+        </Title>
         <IdeaContainer>
           <Text>We will be able to refine it to a profitable project</Text>
-          <Button simple>contact us</Button>
+          <Button simple={true} link="https://t.me/dashewski" target="_blank">
+            contact us
+          </Button>
         </IdeaContainer>
         <BackgroundCircle
-          // $top={{ mobile: '22px', desktop: '0' }}
           $top={{ mobile: '190px', desktop: '0' }}
           $bottom={{ mobile: '0', desktop: '0' }}
           $left={{ mobile: '0', desktop: '0' }}

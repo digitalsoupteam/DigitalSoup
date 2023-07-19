@@ -25,7 +25,7 @@ const Services = () => {
               Tokenization
             </Title>
             <Text>
-              Development of smart contracts, NFTs, Token, audits and Security
+              Development of smart contracts, NFTs, Tokens, audits and Security
             </Text>
           </ServicesItem>
           <ServicesItem>
@@ -60,7 +60,9 @@ const Services = () => {
             </Title>
             <Text>Realizing and promotion any unusual ideas.</Text>
           </TextWrapper>
-          <Button simple>Contact us</Button>
+          <Button simple={true} link="https://t.me/dashewski" target="_blank">
+            Contact us
+          </Button>
         </CallBack>
       </StyledServices>
     </Wrapper>

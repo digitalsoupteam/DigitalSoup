@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import StyledLink from '../../ui/link/link';
 
 const LogoSize = {
   STANDARD: 'standard',
@@ -31,18 +32,28 @@ const StyledLogo = styled.div`
   }};
 `;
 
+const StyledHeaderLink = styled(StyledLink)`
+  display: ${(props) => (props.isHome === true ? 'none' : 'block')};
+
+  @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
+    display: block;
+  }
+`;
+
 const StyledHeaderLogo = styled.span`
-  display: none;
-  min-width: fit-content;
-  font-size: 30px;
+  display: block;
+  text-align: center;
+  font-size: 22px;
   line-height: ${(props) => props.theme.lineHieghtDefault};
+  letter-spacing: 5.963px;
   font-weight: 500;
-  letter-spacing: 7.95px;
   text-transform: uppercase;
 
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
     display: inline-block;
+    font-size: 30px;
+    letter-spacing: 7.95px;
   }
 `;
 
-export { LogoSize, StyledLogo, StyledHeaderLogo };
+export { LogoSize, StyledLogo, StyledHeaderLink, StyledHeaderLogo };

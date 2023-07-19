@@ -8,7 +8,7 @@ const Since = () => {
   return (
     <Wrapper>
       <StyledSince>
-        <SinceTitle>
+        <SinceTitle as={'h2'}>
           <span>Since 2017</span>
           <span>until now</span>
         </SinceTitle>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Wrapper from '../../layout/wrapper/wrapper';
 import { StyledHero, Circles, Text } from './styled';
-import { Circle } from '../../ui/circle/circle';
+import Circle from '../../ui/circle/circle';
 import { Logo } from '../../ui/logo/logo';
 import { LogoSize } from '../../ui/logo/styled';
 import BackgroundCircle from '../../../elements/background';
@@ -14,36 +14,37 @@ const Hero = () => {
         <Circles>
           <Circle
             $scaling
+            $duration={'3s'}
             size={{ mobile: '166px', desktop: '240px' }}
             $top={{ mobile: 'auto', desktop: 'auto' }}
-            $bottom={{ mobile: '108px', desktop: '157px' }}
-            $left={{ mobile: '97px', desktop: '126px' }}
+            $bottom={{ mobile: '108px', desktop: '140px' }}
+            $left={{ mobile: '97px', desktop: '116px' }}
             $right={{ mobile: 'auto', desktop: 'auto' }}
-            // from={'TOP_RIGHT'}
             from={'TOP_RIGHT'}
           >
             Development
           </Circle>
           <Circle
             $scaling
+            $delay={'1s'}
+            $duration={'2s'}
             size={{ mobile: '93px', desktop: '134px' }}
             $top={{ mobile: 'auto', desktop: 'auto' }}
-            $bottom={{ mobile: '92px', desktop: '133px' }}
+            $bottom={{ mobile: '92px', desktop: '110px' }}
             $left={{ mobile: '32px', desktop: '33px' }}
             $right={{ mobile: 'auto', desktop: 'auto' }}
-            // from={'TOP_LEFT'}
             from={'TOP_LEFT'}
           >
             Design
           </Circle>
           <Circle
             $scaling
+            $duration={'2s'}
             size={{ mobile: '118px', desktop: '170px' }}
             $top={{ mobile: 'auto', desktop: 'auto' }}
-            $bottom={{ mobile: '16px', desktop: '23px' }}
+            $bottom={{ mobile: '16px', desktop: '10px' }}
             $left={{ mobile: '83px', desktop: '105px' }}
             $right={{ mobile: 'auto', desktop: 'auto' }}
-            // from={'BOTTOM_LEFT'}
             from={'BOTTOM_LEFT'}
           >
             Promotion

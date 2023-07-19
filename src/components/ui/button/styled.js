@@ -2,22 +2,55 @@ import styled, { css } from 'styled-components';
 
 const simpleStyle = css`
   background-color: ${(props) => props.theme.basicWhite};
-  border: 3px solid transparent;
   color: ${(props) => props.theme.simpleButtonColor};
   padding: 6px 40px;
 
+  &:hover,
+  &:focus {
+    background-color: transparent;
+    color: ${(props) => props.theme.basicWhite};
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
     padding: 8px 12px;
-    border: 4px solid transparent;
   }
 `;
 
 const complexStyle = css`
-  position: relative;
   background-color: transparent;
   border: none;
   color: ${(props) => props.theme.basicWhite};
   padding: 8px 14px;
+
+  &:hover,
+  &:focus {
+    background-color: ${(props) => props.theme.basicWhite};
+    color: ${(props) => props.theme.simpleButtonColor};
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+`;
+
+const StyledButton = styled.a`
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3.2px;
+  line-height: ${(props) => props.theme.lineHieghtDefault};
+  max-width: fit-content;
+  text-decoration: none;
+  border: 3px solid transparent;
+  transition: all 200ms;
 
   &::before,
   &::after {
@@ -40,30 +73,12 @@ const complexStyle = css`
     border-right: 1.5px solid ${(props) => props.theme.basicWhite};
     right: 0;
   }
-`;
-
-const StyledButton = styled.a`
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 3.2px;
-  line-height: ${(props) => props.theme.lineHieghtDefault};
-  max-width: fit-content;
 
   ${(props) => (props.simple ? simpleStyle : complexStyle)};
 
-  &:hover,
-  &:focus {
-  }
-
-  &:active {
-  }
-
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
     font-size: 16px;
+    border: 4px solid transparent;
   }
 `;
 
