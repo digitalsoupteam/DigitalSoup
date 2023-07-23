@@ -119,7 +119,7 @@ const HowItWorks = () => {
             <StepsItem>
               <Count>1</Count>
               <StepsText>
-                Create a<br />
+                We create a<br />
                 project plan
               </StepsText>
             </StepsItem>
@@ -156,9 +156,9 @@ const HowItWorks = () => {
           </DescriptionIntro>
           <DescriptionText>
             <Text>
-              One of our super abilities is to create teams for the project.
-              This service is needed when the customer's project is particularly
-              large and requires full immersion and work on the project 24/7.
+              One of our super abilities is to create teams for projects. This
+              service is necessary when the customer's project is particularly
+              large and requires full immersion and 24/7 dedication.
             </Text>
             <Text>
               For such tasks, we form independent teams of developers and smm

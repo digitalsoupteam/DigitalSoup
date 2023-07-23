@@ -5,6 +5,7 @@ const StyledGallery = styled.div`
   display: flex;
   flex-direction: column;
   gap: 60px;
+  margin-bottom: ${(props) => (props.isException ? '89px' : null)};
 
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
     display: grid;

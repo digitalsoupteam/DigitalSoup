@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import Wrapper from '../../layout/wrapper/wrapper';
 import CasePreview from '../../ui/case-preview/case-preview';
 import { Title, TitleSize } from '../../ui/title/title';
@@ -6,15 +6,10 @@ import { StyledCases, CasesList, StyledSwiper, CasesItem } from './styled';
 import BackgroundCircle from '../../../elements/background';
 import Pagination from '../../ui/pagination/pagination';
 import { SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 
 const Cases = ({ cases }) => {
   const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1200);
-  const [activeSlideIndex, setActiveSlideIndex] = useState(0);
-  const handleSlideChange = (swiper) => {
-    setActiveSlideIndex(swiper.activeIndex);
-  };
 
   useEffect(() => {
     const handleResize = () => {
@@ -33,15 +28,13 @@ const Cases = ({ cases }) => {
     };
   }, [isDesktop]);
 
-  const swiperRef = useRef(null);
-
   const casesStep = 4;
 
   const [currentLength, setCurrentLength] = useState(casesStep);
 
   return (
     <Wrapper id="cases">
-      <StyledCases id="cases">
+      <StyledCases>
         <Title size={TitleSize.BIG}>
           Something we have
           <br />
@@ -60,16 +53,9 @@ const Cases = ({ cases }) => {
           </CasesList>
         ) : (
           <StyledSwiper
-            modules={[Navigation]}
-            navigation
-            onBeforeInit={(swiper) => {
-              swiperRef.current = swiper;
-            }}
-            freeMode
-            watchSlidesProgress
-            spaceBetween={20}
+            spaceBetween={100}
             slidesPerView={1}
-            onSlideChange={handleSlideChange}
+            onSlideChange={() => console.log('slide change')}
           >
             {cases &&
               cases.map((caseItem) => (
@@ -82,23 +68,14 @@ const Cases = ({ cases }) => {
           </StyledSwiper>
         )}
         <Pagination
+          min={1}
           max={cases.length}
-          currentCount={isDesktop ? currentLength : activeSlideIndex + 1}
-          onPrevClick={
-            isDesktop
-              ? () =>
-                  setCurrentLength(
-                    Math.max(currentLength - casesStep, casesStep),
-                  )
-              : () => swiperRef.current.slidePrev()
+          currentCount={currentLength}
+          onNextClick={() =>
+            setCurrentLength(Math.min(currentLength + casesStep, cases.length))
           }
-          onNextClick={
-            isDesktop
-              ? () =>
-                  setCurrentLength(
-                    Math.min(currentLength + casesStep, cases.length),
-                  )
-              : () => swiperRef.current.slideNext()
+          onPrevClick={() =>
+            setCurrentLength(Math.max(currentLength - casesStep, casesStep))
           }
         />
         <BackgroundCircle

@@ -27,4 +27,8 @@ export const GlobalStyle = createGlobalStyle`
       font-size: ${(props) => props.theme.fontSizeDesktop};
     }
   }
+
+  .swiper-wrapper {
+    width: 300px;
+  }
 `;

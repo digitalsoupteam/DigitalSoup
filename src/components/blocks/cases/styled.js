@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Swiper } from 'swiper/react';
 import Ul from '../../../elements/ul';
 
 const StyledCases = styled.div`
@@ -21,6 +22,12 @@ const CasesList = styled(Ul)`
   }
 `;
 
+const StyledSwiper = styled(Swiper)`
+  width: 100%;
+  height: 455px;
+  margin: 0 auto;
+`;
+
 const CasesItem = styled.li`
   &:nth-child(2n - 1) {
     position: relative;
@@ -28,4 +35,4 @@ const CasesItem = styled.li`
   }
 `;
 
-export { StyledCases, CasesList, CasesItem };
+export { StyledCases, CasesList, StyledSwiper, CasesItem };

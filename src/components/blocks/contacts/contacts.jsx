@@ -9,7 +9,7 @@ import tgIco from '../../../assets/tg-ico.svg';
 
 const Contacts = () => {
   return (
-    <StyledContacts>
+    <StyledContacts id="contacts">
       <Wrapper>
         <Socials>
           <SocialsItem>

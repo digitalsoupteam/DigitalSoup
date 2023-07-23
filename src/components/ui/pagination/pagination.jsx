@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyledPAgintaion, PaginationButton, Count } from './styled';
 
-const Pagination = ({ min, max, currentCount, onPrevClick, onNextClick }) => {
+const Pagination = ({ max, currentCount, onPrevClick, onNextClick }) => {
   return (
     <StyledPAgintaion>
       <PaginationButton onClick={onPrevClick}>{'<'}</PaginationButton>

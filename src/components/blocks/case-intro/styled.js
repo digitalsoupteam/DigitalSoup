@@ -15,7 +15,6 @@ const StyledWrapper = styled(Wrapper)`
   max-width: 100%;
 
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
-    height: 505px;
     max-width: ${(props) =>
       props.fullWidth ? '100%' : props.theme.contentWidthDesktop};
     padding: 0 ${(props) => props.theme.indentDesktop};
@@ -23,11 +22,13 @@ const StyledWrapper = styled(Wrapper)`
 `;
 
 const IntroImage = styled.img`
+  display: block;
   width: 100%;
   height: auto;
+  min-height: 226px;
 
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
-    height: 505px;
+    max-height: 595px;
   }
 `;
 

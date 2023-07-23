@@ -30,21 +30,21 @@ const AboutUs = () => {
   }, [inView, hasAnimated]);
 
   return (
-    <Wrapper>
+    <Wrapper id="about">
       <StyledAboutUs>
         <Description>
           <Title size={TitleSize.MEDIUM} as={'h2'}>
             A few words about us
           </Title>
           <DescriptionText>
-            Idea of this project appeared on the basis of our already existing
-            marketing agency founded in 2017. After working on the promotion of
-            several crypto projects, we gathered our team of developers and
-            decided to make a team for a full cycle of work with web3.
+            The idea for this project emerged based on our already established
+            marketing agency, founded in 2017. After working on the promotion of
+            various crypto projects, we assembled a team of developers and
+            decided to form a comprehensive web3 work cycle team.
           </DescriptionText>
           <DescriptionText>
-            In addition to the development and promotion of the project, we are
-            very good at business logic.
+            In addition to project development and promotion, we demonstrate
+            exceptional proficiency in business logic.
           </DescriptionText>
         </Description>
         <Bio>

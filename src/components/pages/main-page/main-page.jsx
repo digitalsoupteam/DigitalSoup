@@ -24,7 +24,7 @@ const MainPage = () => {
       <HowItWorks />
       <ContactBar
         text={
-          'We will consult, select the best solution, tell you how to implement your task profitably. We become your best outsourcing team!'
+          'We will consult, help you select the best solution, and provide guidance on how to implement your task profitably. We aim to become your best outsourcing team!'
         }
       />
       <Contacts />
