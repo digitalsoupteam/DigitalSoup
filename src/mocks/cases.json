@@ -59,7 +59,11 @@
           "description": "After the tests, we finalized the logic of certain project elements and added new features. For instance, we introduced a feature that allows users to switch between the Flex and Stable staking formats at any time, enabling them to choose the most profitable format for their needs."
         }
       ]
-    ]
+    ],
+    "links": {
+      "github": "https://github.com/dashewski/ElectraProject",
+      "figma": "https://www.figma.com/file/BMWmIdqqwZ4Si1cgAigSJb/Electra-NFT-Share-(Copy)?type=design&node-id=0-1&mode=design&t=7MNv9hMfPk4RBOwz-0"
+    }
   },
   {
     "id": "gato-ecosystem",

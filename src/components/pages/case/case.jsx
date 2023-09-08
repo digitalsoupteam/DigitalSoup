@@ -60,7 +60,7 @@ const Case = ({ cases }) => {
         <StyledCaseEnding text={caseInfo.ending_text} />
       ) : null}
       <ContactBar title={'More details?'} />
-      <Contacts />
+      <Contacts links={caseInfo.links} />
     </main>
   );
 };
