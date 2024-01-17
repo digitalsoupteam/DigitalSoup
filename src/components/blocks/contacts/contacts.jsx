@@ -8,9 +8,14 @@ import tgIco from '../../../assets/tg-ico.svg';
 import ghIco from '../../../assets/gh-ico.svg';
 import figmaIco from '../../../assets/figma-ico.svg';
 
+const icons = {
+  telgram: tgIco,
+  // 'toutube': youtubeIco,
+  github: ghIco,
+  figma: figmaIco,
+};
+
 const Contacts = ({ links }) => {
-  const projectLinkGithub = links ? links.github : null;
-  const projectLinkFigma = links ? links.figma : null;
   return (
     <StyledContacts id="contacts">
       <Wrapper>
@@ -25,7 +30,7 @@ const Contacts = ({ links }) => {
             <SocialIco src={youtubeIco} alt={'youtube icon'} />
             <Button>YouTube</Button>
           </SocialsItem> */}
-          {projectLinkGithub ? (
+          {/* {projectLinkGithub ? (
             <SocialsItem>
               <SocialIco src={ghIco} alt={'github icon'} />
               <Button link={links.github} target="_blank">
@@ -40,20 +45,33 @@ const Contacts = ({ links }) => {
                 Figma
               </Button>
             </SocialsItem>
-          ) : null}
-          <SocialsItem>
-            <SocialIco src={ghIco} alt={'github icon'} />
-            <Button link="https://github.com/dashewski" target="_blank">
-              Github
-            </Button>
-          </SocialsItem>
-          {links ? null : (
-            <SocialsItem>
-              <SocialIco src={tgIco} alt={'telegram icon'} />
-              <Button link="https://t.me/dashewski" target="_blank">
-                Ceo
-              </Button>
-            </SocialsItem>
+          ) : null} */}
+          {links ? (
+            links.map((item, index) => {
+              return (
+                <SocialsItem key={index}>
+                  <SocialIco src={icons[item.icon]} alt={`${item.icon} icon`} />
+                  <Button link={item.link} target="_blank">
+                    {item.text}
+                  </Button>
+                </SocialsItem>
+              );
+            })
+          ) : (
+            <>
+              <SocialsItem>
+                <SocialIco src={ghIco} alt={'github icon'} />
+                <Button link="https://github.com/dashewski" target="_blank">
+                  Github
+                </Button>
+              </SocialsItem>
+              <SocialsItem>
+                <SocialIco src={tgIco} alt={'telegram icon'} />
+                <Button link="https://t.me/dashewski" target="_blank">
+                  Ceo
+                </Button>
+              </SocialsItem>
+            </>
           )}
         </Socials>
       </Wrapper>

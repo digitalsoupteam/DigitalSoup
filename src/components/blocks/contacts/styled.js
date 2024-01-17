@@ -24,6 +24,7 @@ const SocialsItem = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 13px;
 
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {

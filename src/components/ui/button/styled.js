@@ -40,6 +40,7 @@ const complexStyle = css`
 const StyledButton = styled.a`
   position: relative;
   display: inline-flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;

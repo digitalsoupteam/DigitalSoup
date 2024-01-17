@@ -3,6 +3,8 @@ import { Title } from '../../ui/title/title';
 import Text from '../../ui/text/text';
 import { Logo } from '../../ui/logo/logo';
 import Image from '../../../elements/image';
+import { Swiper } from 'swiper/react';
+import Pagination from '../../ui/pagination/pagination';
 
 const bioPhotoAnimation = keyframes`
 from {
@@ -57,9 +59,25 @@ const Bio = styled.div`
   border: 1px solid ${(props) => props.theme.altColor};
   padding: 18px 15px 34px 19px;
   margin-left: 19px;
+  box-sizing: border-box;
+  min-height: 270px;
 
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
     padding: 21px 26px 31px 231px;
+    margin-left: 63px;
+    min-height: 362px;
+  }
+`;
+
+const StyledSwiper = styled(Swiper)`
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  overflow-y: visible;
+
+  @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
+    overflow: hidden;
+    width: 513px;
   }
 `;
 
@@ -79,7 +97,9 @@ const BioPhoto = styled(Image)`
   left: -19px;
   width: 200px;
   height: 200px;
+  object-fit: cover;
   opacity: 0;
+  filter: grayscale(1);
 
   &.visible {
     animation-name: ${bioPhotoAnimation};
@@ -117,13 +137,25 @@ const BioText = styled(Text)`
   }
 `;
 
+const StyledPagination = styled(Pagination)`
+  position: absolute;
+  right: 10px;
+  bottom: 320px;
+
+  @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
+    bottom: 50px;
+  }
+`;
+
 export {
   StyledAboutUs,
   Description,
   DescriptionText,
   Bio,
+  StyledSwiper,
   BioLogo,
   BioTitle,
   BioText,
   BioPhoto,
+  StyledPagination,
 };

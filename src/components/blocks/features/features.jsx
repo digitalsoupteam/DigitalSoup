@@ -15,7 +15,7 @@ const Features = () => {
           <FeatureItem $weight={'900'}>Smart Contracts</FeatureItem>
           <FeatureItem>NFT</FeatureItem>
           <FeatureItem $weight={'900'}>Bots</FeatureItem>
-          <FeatureItem>Community management</FeatureItem>
+          <FeatureItem>Tokenization</FeatureItem>
           <FeatureItem $weight={'700'}>Exchangers</FeatureItem>
           <FeatureItem>Design</FeatureItem>
         </FeaturesList>

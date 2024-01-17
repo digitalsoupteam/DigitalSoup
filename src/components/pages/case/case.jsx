@@ -9,19 +9,21 @@ import StyledCaseEnding from '../../blocks/case-ending/case-ending';
 
 const generateCaseContent = (textBlocks, galleryBlcoks, isException) => {
   let result = [];
-
+  if (!textBlocks && !galleryBlcoks) {
+    return result;
+  }
   if (isException) {
     result = [...textBlocks, ...galleryBlcoks];
   } else {
     textBlocks.forEach((text, index) => {
       result.push(text);
 
-      if (galleryBlcoks[index]) {
+      if (galleryBlcoks) {
         result.push(galleryBlcoks[index]);
       }
     });
   }
-
+  console.log(result);
   return result;
 };
 
