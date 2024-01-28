@@ -21,13 +21,14 @@ const StyledAboutUs = styled.div`
   padding: 51px 24px 51px;
   display: flex;
   flex-direction: column;
-  gap: 145px;
+  gap: 25px;
 
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
     padding: 78px 0 135px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    gap: 145px;
   }
 `;
 
@@ -74,10 +75,12 @@ const StyledSwiper = styled(Swiper)`
   height: auto;
   margin: 0 auto;
   overflow-y: visible;
+  padding-top: 125px;
 
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
     overflow: hidden;
     width: 513px;
+    padding-top: 0;
   }
 `;
 

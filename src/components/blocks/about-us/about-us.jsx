@@ -108,9 +108,8 @@ const AboutUs = () => {
           slidesPerView={1}
           onSlideChange={handleSlideChange}
         >
-          <SwiperSlide>
+          <SwiperSlide style={{ transform: 'translate3d(0, 0, 0)' }}>
             <Bio>
-              <BioLogo size={LogoSize.SMALL} />
               <BioPhoto
                 src={NikPhoto}
                 width="202"
@@ -119,6 +118,7 @@ const AboutUs = () => {
                 ref={refPhoto}
                 className={`animated-element ${isVisible ? 'visible' : ''}`}
               ></BioPhoto>
+              <BioLogo size={LogoSize.SMALL} />
               <BioTitle as={'h3'}>
                 CEO
                 <br />
@@ -162,33 +162,6 @@ const AboutUs = () => {
               </Button>
             </Bio>
           </SwiperSlide> */}
-          <SwiperSlide>
-            <Bio>
-              <BioLogo size={LogoSize.SMALL} />
-              <BioPhoto
-                src={LinaPhoto}
-                width="202"
-                height="202"
-                alt="Art director Eli Weinstein"
-                className={`animated-element ${isVisible ? 'visible' : ''}`}
-              ></BioPhoto>
-              <BioTitle as={'h3'}>
-                Art director <br />
-                Eli Weinstein
-              </BioTitle>
-              <BioText>
-                In Design since 2014
-                <br />
-              </BioText>
-              <Button
-                simple={true}
-                link="https://t.me/image_open"
-                target="_blank"
-              >
-                Let's talk
-              </Button>
-            </Bio>
-          </SwiperSlide>
           <SwiperSlide>
             <Bio>
               <BioLogo size={LogoSize.SMALL} />
@@ -237,6 +210,33 @@ const AboutUs = () => {
               {/* <Button simple={true} link="https://t.me/Inveker" target="_blank">
                 Let's talk
               </Button> */}
+            </Bio>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Bio>
+              <BioLogo size={LogoSize.SMALL} />
+              <BioPhoto
+                src={LinaPhoto}
+                width="202"
+                height="202"
+                alt="Art director Eli Weinstein"
+                className={`animated-element ${isVisible ? 'visible' : ''}`}
+              ></BioPhoto>
+              <BioTitle as={'h3'}>
+                Art director <br />
+                Eli Weinstein
+              </BioTitle>
+              <BioText>
+                In Design since 2014
+                <br />
+              </BioText>
+              <Button
+                simple={true}
+                link="https://t.me/image_open"
+                target="_blank"
+              >
+                Let's talk
+              </Button>
             </Bio>
           </SwiperSlide>
         </StyledSwiper>
