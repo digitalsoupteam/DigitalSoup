@@ -4,6 +4,11 @@ import Text from '../../ui/text/text';
 
 const BackgroundBar = styled.div`
   background-color: ${(props) => props.theme.backgroundColor};
+  margin-bottom: 100px;
+
+  @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
+    margin-bottom: 210px;
+  }
 `;
 
 const InnerContainer = styled.div`

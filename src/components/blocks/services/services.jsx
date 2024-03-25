@@ -12,6 +12,25 @@ import Text from '../../ui/text/text';
 import Button from '../../ui/button/button';
 import { Title, TitleSize } from '../../ui/title/title';
 
+const servicesItems = [
+  {
+    title: 'Tokenization',
+    text: 'Turning any assets into NFTs and tokens, creating usage mechanics for any business',
+  },
+  {
+    title: 'Smart Contracts',
+    text: 'Writing smart contracts for any tasks, exchangers, voting, DAO, tokens, NFTs, steaking and more',
+  },
+  {
+    title: 'Advisory&Auditing',
+    text: 'Consulting on development, writing technical assignments, conducting security audits of existing projects',
+  },
+  {
+    title: 'Web3 interfaces',
+    text: 'Creation of any web3 platforms, exchangers, NFT marketplaces and wallets',
+  },
+];
+
 const Services = () => {
   return (
     <Wrapper>
@@ -20,38 +39,16 @@ const Services = () => {
           Services:
         </ServicesTitle>
         <ServicesList>
-          <ServicesItem>
-            <Title as={'h3'} size={TitleSize.SMALL}>
-              Tokenization
-            </Title>
-            <Text>
-              Development of smart contracts, NFTs, Tokens, audits and Security
-            </Text>
-          </ServicesItem>
-          <ServicesItem>
-            <Title as={'h3'} size={TitleSize.SMALL}>
-              DeFi
-            </Title>
-            <Text>Integrate your project with Decentralized Finance Dapps</Text>
-          </ServicesItem>
-          <ServicesItem>
-            <Title as={'h3'} size={TitleSize.SMALL}>
-              Promotion
-            </Title>
-            <Text>
-              Creating a promotion strategy, social media marketing, advertising
-              and community management
-            </Text>
-          </ServicesItem>
-          <ServicesItem>
-            <Title as={'h3'} size={TitleSize.SMALL}>
-              Web3 interfaces
-            </Title>
-            <Text>
-              Creation of any web3 platforms, exchangers, NFT marketplaces and
-              wallets
-            </Text>
-          </ServicesItem>
+          {servicesItems &&
+            servicesItems.length &&
+            servicesItems.map((item) => (
+              <ServicesItem>
+                <Title as={'h3'} size={TitleSize.SMALL}>
+                  {item.title}
+                </Title>
+                <Text>{item.text}</Text>
+              </ServicesItem>
+            ))}
         </ServicesList>
         <CallBack>
           <TextWrapper>

@@ -51,7 +51,7 @@ const HowItWorks = () => {
               $left={{ mobile: '5px', desktop: '0' }}
               $right={{ mobile: 'auto', desktop: 'auto' }}
             >
-              SMM
+              Designers
             </Circle>
             <Circle
               $rotating
@@ -64,9 +64,7 @@ const HowItWorks = () => {
               $left={{ mobile: '88px', desktop: '159px' }}
               $right={{ mobile: 'auto', desktop: 'auto' }}
             >
-              Our strategy
-              <br />
-              and managment
+              Technical asignments
             </Circle>
             <Circle
               $rotating

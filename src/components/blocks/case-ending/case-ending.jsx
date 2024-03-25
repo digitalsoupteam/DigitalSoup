@@ -1,13 +1,13 @@
 import React from 'react';
 import Wrapper from '../../layout/wrapper/wrapper';
-import TextSpacing from '../../ui/text-spacing/text-spacing';
+import { Title, TitleSize } from '../../ui/title/title';
 import { StyledCaseEnding } from './styled';
 
 const CaseEnding = ({ text }) => {
   return (
     <Wrapper>
       <StyledCaseEnding>
-        <TextSpacing>{text}</TextSpacing>
+        <Title size={TitleSize.MEDIUM}>{text}</Title>
       </StyledCaseEnding>
     </Wrapper>
   );

@@ -125,6 +125,7 @@ const BioTitle = styled(Title)`
   font-size: 15px;
   font-weight: 400;
   margin-bottom: 7px;
+  white-space: pre-wrap;
 
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
     font-size: 20px;
@@ -134,6 +135,7 @@ const BioTitle = styled(Title)`
 
 const BioText = styled(Text)`
   margin-bottom: 26px;
+  white-space: pre-wrap;
 
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
     margin-bottom: 33px;
@@ -141,6 +143,7 @@ const BioText = styled(Text)`
 `;
 
 const StyledPagination = styled(Pagination)`
+  z-index: 1;
   position: absolute;
   right: 10px;
   bottom: 320px;

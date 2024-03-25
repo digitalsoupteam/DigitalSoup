@@ -13,16 +13,10 @@ import {
   BioPhoto,
   StyledPagination,
 } from './styled';
+import { teamMembers } from './about-us.constants';
 import { Title, TitleSize } from '../../ui/title/title';
 import { LogoSize } from '../../ui/logo/styled';
 import Button from '../../ui/button/button';
-import NikPhoto from '../../../assets/nik-photo-2.png';
-// import AndrwPhoto from '../../../assets/andrew.PNG';
-import KirillPhoto from '../../../assets/Kirill.jpg';
-import AlexPhoto1 from '../../../assets/Alex1.png';
-// import AlexPhoto2 from '../../../assets/Alex2.PNG';
-// import AlexPhoto3 from '../../../assets/Alex3.JPG';
-import LinaPhoto from '../../../assets/lina.jpg';
 import BackgroundCircle from '../../../elements/background';
 import { SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
@@ -86,14 +80,20 @@ const AboutUs = () => {
             A few words about us
           </Title>
           <DescriptionText>
-            The idea for this project emerged based on our already established
-            marketing agency, founded in 2017. After working on the promotion of
-            various crypto projects, we assembled a team of developers and
-            decided to form a comprehensive web3 work cycle team.
+            A few years ago I got the idea to make a studio for crypto-projects
+            development on the basis of my website development agency. I myself
+            was interested in cryptocurrency and was learning a little about
+            smart contracts.
           </DescriptionText>
           <DescriptionText>
-            In addition to project development and promotion, we demonstrate
-            exceptional proficiency in business logic.
+            A little later we received an order from my old clients, then they
+            ordered not only a website, but also gave the task to create an
+            NFT-collection with interaction logic. Then we took on the project,
+            and I started building our team.
+          </DescriptionText>
+          <DescriptionText>
+            At the moment, DigitalSoup employs 8 people and 3 managers in their
+            areas, who are always ready to discuss your project with you!
           </DescriptionText>
         </Description>
         <StyledSwiper
@@ -108,137 +108,34 @@ const AboutUs = () => {
           slidesPerView={1}
           onSlideChange={handleSlideChange}
         >
-          <SwiperSlide style={{ transform: 'translate3d(0, 0, 0)' }}>
-            <Bio>
-              <BioPhoto
-                src={NikPhoto}
-                width="202"
-                height="202"
-                alt="CEO Nikita Daszewski"
-                ref={refPhoto}
-                className={`animated-element ${isVisible ? 'visible' : ''}`}
-              ></BioPhoto>
-              <BioLogo size={LogoSize.SMALL} />
-              <BioTitle as={'h3'}>
-                CEO
-                <br />
-                Nikita Daszewski
-              </BioTitle>
-              <BioText>
-                In SMM since 2015
-                <br />
-                In Development since 2021
-              </BioText>
-              <Button
-                simple={true}
-                link="https://t.me/dashewski"
-                target="_blank"
-              >
-                Let's talk
-              </Button>
-            </Bio>
-          </SwiperSlide>
-          {/* <SwiperSlide>
-            <Bio>
-              <BioLogo size={LogoSize.SMALL} />
-              <BioPhoto
-                src={AndrwPhoto}
-                width="202"
-                height="202"
-                alt="Andrew Lefter Head of smm"
-                className={`animated-element ${isVisible ? 'visible' : ''}`}
-              ></BioPhoto>
-              <BioTitle as={'h3'}>
-                Head of SMM <br />
-                Andrew Lefter
-              </BioTitle>
-              <BioText>
-                In SMM since 2014
-                <br />
-                In Crypto since 2017
-              </BioText>
-              <Button simple={true} link="https://t.me/Iefter" target="_blank">
-                Let's talk
-              </Button>
-            </Bio>
-          </SwiperSlide> */}
-          <SwiperSlide>
-            <Bio>
-              <BioLogo size={LogoSize.SMALL} />
-              <BioPhoto
-                src={KirillPhoto}
-                width="202"
-                height="202"
-                alt="Front-end teamlead Kirill Bashorin"
-                className={`animated-element ${isVisible ? 'visible' : ''}`}
-              ></BioPhoto>
-              <BioTitle as={'h3'}>
-                Front-end teamlead <br />
-                Kirill Bashorin
-              </BioTitle>
-              <BioText>
-                In development since 2017
-                <br />
-              </BioText>
-              <Button
-                simple={true}
-                link="https://t.me/kirillbshrn"
-                target="_blank"
-              >
-                Let's talk
-              </Button>
-            </Bio>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Bio>
-              <BioLogo size={LogoSize.SMALL} />
-              <BioPhoto
-                src={AlexPhoto1}
-                width="202"
-                height="202"
-                alt="Solidity teamlead Aleks Korolev"
-                className={`animated-element ${isVisible ? 'visible' : ''}`}
-              ></BioPhoto>
-              <BioTitle as={'h3'}>
-                Solidity teamlead <br />
-                Aleks Korolev
-              </BioTitle>
-              <BioText>
-                In development since 2016
-                <br />
-              </BioText>
-              {/* <Button simple={true} link="https://t.me/Inveker" target="_blank">
-                Let's talk
-              </Button> */}
-            </Bio>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Bio>
-              <BioLogo size={LogoSize.SMALL} />
-              <BioPhoto
-                src={LinaPhoto}
-                width="202"
-                height="202"
-                alt="Art director Eli Weinstein"
-                className={`animated-element ${isVisible ? 'visible' : ''}`}
-              ></BioPhoto>
-              <BioTitle as={'h3'}>
-                Art director <br />
-                Eli Weinstein
-              </BioTitle>
-              <BioText>
-                In Design since 2014
-                <br />
-              </BioText>
-              <Button
-                simple={true}
-                link="https://t.me/image_open"
-                target="_blank"
-              >
-                Let's talk
-              </Button>
-            </Bio>
-          </SwiperSlide>
+          {teamMembers &&
+            teamMembers.length &&
+            teamMembers.map((item) => (
+              <SwiperSlide style={{ transform: 'translate3d(0, 0, 0)' }}>
+                <Bio>
+                  <BioPhoto
+                    src={item.photo}
+                    width="202"
+                    height="202"
+                    alt={item.memberName}
+                    ref={refPhoto}
+                    className={`animated-element ${isVisible ? 'visible' : ''}`}
+                  />
+                  <BioLogo size={LogoSize.SMALL} />
+                  <BioTitle as={'h3'}>{item.memberName}</BioTitle>
+                  <BioText>{item.description}</BioText>
+                  {item.hideContact ? null : (
+                    <Button
+                      simple={true}
+                      link="https://t.me/dashewski"
+                      target="_blank"
+                    >
+                      Let's talk
+                    </Button>
+                  )}
+                </Bio>
+              </SwiperSlide>
+            ))}
         </StyledSwiper>
         <StyledPagination
           max={4}

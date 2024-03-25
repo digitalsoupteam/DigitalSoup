@@ -7,9 +7,8 @@ import AboutUs from '../../blocks/about-us/about-us';
 import Idea from '../../blocks/idea/idea';
 import HowItWorks from '../../blocks/how-it-works/how-it-works';
 import ContactBar from '../../blocks/contact-bar/contact-bar';
-import Contacts from '../../blocks/contacts/contacts';
 import Cases from '../../blocks/cases/cases';
-import casesData from '../../../mocks/cases.json';
+import CasesData from '../../blocks/cases/cases.constants';
 
 const MainPage = () => {
   return (
@@ -20,14 +19,9 @@ const MainPage = () => {
       <Services />
       <AboutUs />
       <Idea />
-      <Cases cases={casesData} />
+      <Cases cases={CasesData} />
       <HowItWorks />
-      <ContactBar
-        text={
-          'We will consult, help you select the best solution, and provide guidance on how to implement your task profitably. We aim to become your best outsourcing team!'
-        }
-      />
-      <Contacts />
+      <ContactBar />
     </main>
   );
 };

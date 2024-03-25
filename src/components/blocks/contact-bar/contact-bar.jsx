@@ -1,5 +1,4 @@
 import { Title, TitleSize } from '../../ui/title/title';
-import Text from '../../ui/text/text';
 import BackgroundCircle from '../../../elements/background';
 import Wrapper from '../../layout/wrapper/wrapper';
 import Button from '../../ui/button/button';
@@ -10,24 +9,20 @@ import {
   StyledText,
 } from './styled';
 
-const ContactBar = ({ title, text }) => {
+const ContactBar = () => {
   return (
     <BackgroundBar>
       <Wrapper>
-        <InnerContainer isCustomText={text}>
+        <InnerContainer>
           <Title size={TitleSize.BIG} as={'h2'}>
-            {title ? title : 'Get in touch'}
+            More details?
           </Title>
-          {text ? (
-            <Text>{text}</Text>
-          ) : (
-            <CbContainer>
-              <StyledText>Just write</StyledText>
-              <Button simple={true} link="https://t.me/dashewski">
-                Contact us
-              </Button>
-            </CbContainer>
-          )}
+          <CbContainer>
+            <StyledText>Just write</StyledText>
+            <Button simple={true} link="https://t.me/dashewski">
+              Contact us
+            </Button>
+          </CbContainer>
           <BackgroundCircle
             $top={{ mobile: '-32px', desktop: '-92px' }}
             $bottom={{ mobile: 'auto', desktop: '0' }}

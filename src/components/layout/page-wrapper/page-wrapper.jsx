@@ -4,7 +4,7 @@ import Footer from '../footer/footer';
 import Main from '../../pages/main-page/main-page';
 import Case from '../../pages/case/case';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import cases from '../../../mocks/cases.json';
+import CasesData from '../../blocks/cases/cases.constants';
 import ScrollToTop from '../../../elements/scroll-to-top';
 
 const PageWrapper = () => {
@@ -15,10 +15,7 @@ const PageWrapper = () => {
         <ScrollToTop />
         <Routes>
           <Route index element={<Main />} />
-          <Route path="/about" element={<Main />} />
-          <Route path="/cases" element={<Main />} />
-          <Route path="/contacts" element={<Main />} />
-          <Route path="/cases/:id" element={<Case cases={cases} />} />
+          <Route path="/cases/:id" element={<Case cases={CasesData} />} />
         </Routes>
         <Footer />
       </BrowserRouter>

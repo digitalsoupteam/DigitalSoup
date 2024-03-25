@@ -27,17 +27,17 @@ const Navigation = () => {
     <StyledNav>
       <NavList>
         <NavItem>
-          <StyledLink to="about" onClick={onAboutClick}>
+          <StyledLink to="/#about" onClick={onAboutClick}>
             About
           </StyledLink>
         </NavItem>
         <NavItem>
-          <StyledLink to="cases" onClick={onCasesClick}>
+          <StyledLink to="/#cases" onClick={onCasesClick}>
             Cases
           </StyledLink>
         </NavItem>
         <NavItem>
-          <StyledLink to="contacts" onClick={onContactsClick}>
+          <StyledLink to="/#contacts" onClick={onContactsClick}>
             Contacts
           </StyledLink>
         </NavItem>

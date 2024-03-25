@@ -47,7 +47,7 @@ const Hero = () => {
             $right={{ mobile: 'auto', desktop: 'auto' }}
             from={'BOTTOM_LEFT'}
           >
-            Promotion
+            Auditing
           </Circle>
         </Circles>
         <Text>Your full cycle web3 agency</Text>

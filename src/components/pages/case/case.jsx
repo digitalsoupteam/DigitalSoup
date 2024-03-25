@@ -5,7 +5,7 @@ import ContactBar from '../../blocks/contact-bar/contact-bar';
 import Contacts from '../../blocks/contacts/contacts';
 import CaseText from '../../blocks/case-text/case-text';
 import CaseGallery from '../../blocks/case-gallery/case-gallery';
-import StyledCaseEnding from '../../blocks/case-ending/case-ending';
+import CaseEnding from '../../blocks/case-ending/case-ending';
 
 const generateCaseContent = (textBlocks, galleryBlcoks, isException) => {
   let result = [];
@@ -18,12 +18,12 @@ const generateCaseContent = (textBlocks, galleryBlcoks, isException) => {
     textBlocks.forEach((text, index) => {
       result.push(text);
 
-      if (galleryBlcoks) {
+      if (galleryBlcoks[index]) {
         result.push(galleryBlcoks[index]);
       }
     });
   }
-  console.log(result);
+
   return result;
 };
 
@@ -35,6 +35,7 @@ const Case = ({ cases }) => {
     caseInfo.gallery,
     caseInfo.is_exception,
   );
+
   let galleryCount = 0;
   return (
     <main>
@@ -58,11 +59,9 @@ const Case = ({ cases }) => {
             return <CaseText key={index} content={item} />;
           }
         })}
-      {caseInfo.ending_text ? (
-        <StyledCaseEnding text={caseInfo.ending_text} />
-      ) : null}
-      <ContactBar title={'More details?'} />
-      <Contacts links={caseInfo.links} />
+      {caseInfo.ending_text ? <CaseEnding text={caseInfo.ending_text} /> : null}
+      {caseInfo.links && <Contacts links={caseInfo.links} />}
+      <ContactBar />
     </main>
   );
 };

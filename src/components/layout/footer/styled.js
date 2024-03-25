@@ -6,12 +6,12 @@ const StyledFooter = styled.footer`
 
 const InnerContainer = styled.div`
   position: relative;
-  padding: 20px 0;
+  padding: 20px 0 53px;
   display: flex;
   justify-content: center;
 
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
-    padding: 174px 0 53px;
+    padding: 30px 0 100px;
   }
 `;
 
