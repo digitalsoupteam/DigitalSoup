@@ -110,7 +110,7 @@ const AboutUs = () => {
         >
           {teamMembers &&
             teamMembers.length &&
-            teamMembers.map((item) => (
+            teamMembers.map((item, index) => (
               <SwiperSlide style={{ transform: 'translate3d(0, 0, 0)' }}>
                 <Bio>
                   <BioPhoto
@@ -118,7 +118,7 @@ const AboutUs = () => {
                     width="202"
                     height="202"
                     alt={item.memberName}
-                    ref={refPhoto}
+                    ref={index === 0 ? refPhoto : null}
                     className={`animated-element ${isVisible ? 'visible' : ''}`}
                   />
                   <BioLogo size={LogoSize.SMALL} />
