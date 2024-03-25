@@ -146,10 +146,10 @@ const StyledPagination = styled(Pagination)`
   z-index: 1;
   position: absolute;
   right: 10px;
-  bottom: 320px;
+  bottom: 335px;
 
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
-    bottom: 50px;
+    bottom: 100px;
   }
 `;
 

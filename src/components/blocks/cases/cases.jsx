@@ -41,7 +41,7 @@ const Cases = ({ cases }) => {
 
   return (
     <Wrapper id="cases">
-      <StyledCases id="cases">
+      <StyledCases>
         <Title size={TitleSize.BIG}>
           Something we have
           <br />

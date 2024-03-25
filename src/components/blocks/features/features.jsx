@@ -3,17 +3,17 @@ import Wrapper from '../../layout/wrapper/wrapper';
 import { StyledFeatures, FeaturesList, FeatureItem } from './styled';
 
 const featuresList = [
-  { name: 'Wallets', weigth: '900' },
-  { name: 'SMM', weigth: '400' },
-  { name: 'Coins', weigth: '700' },
-  { name: 'web3', weigth: '400' },
-  { name: 'Scripts', weigth: '700' },
-  { name: 'Smart Contracts', weigth: '900' },
-  { name: 'NFT', weigth: '400' },
+  { name: 'Wallets', weight: '900' },
+  { name: 'SMM', weight: '400' },
+  { name: 'Coins', weight: '700' },
+  { name: 'web3', weight: '400' },
+  { name: 'Scripts', weight: '700' },
+  { name: 'Smart Contracts', weight: '900' },
+  { name: 'NFT', weight: '400' },
   { name: 'Bots', weight: '900' },
-  { name: 'Tokenization', weigth: '400' },
+  { name: 'Tokenization', weight: '400' },
   { name: 'Exchangers', weight: '700' },
-  { name: 'Design', weigth: '400' },
+  { name: 'Design', weight: '400' },
 ];
 
 const Features = () => {
