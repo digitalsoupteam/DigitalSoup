@@ -124,21 +124,17 @@ const AboutUs = () => {
                   <BioLogo size={LogoSize.SMALL} />
                   <BioTitle as={'h3'}>{item.memberName}</BioTitle>
                   <BioText>{item.description}</BioText>
-                  {item.hideContact ? null : (
-                    <Button
-                      simple={true}
-                      link="https://t.me/dashewski"
-                      target="_blank"
-                    >
+                  {item.contact ? (
+                    <Button simple={true} link={item.contact} target="_blank">
                       Let's talk
                     </Button>
-                  )}
+                  ) : null}
                 </Bio>
               </SwiperSlide>
             ))}
         </StyledSwiper>
         <StyledPagination
-          max={4}
+          max={teamMembers.length}
           currentCount={activeSlideIndex + 1}
           onPrevClick={handlerPrev}
           onNextClick={handlerNext}
