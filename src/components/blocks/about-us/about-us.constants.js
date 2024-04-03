@@ -30,8 +30,7 @@ const teamMembers = [
     photo: Lina,
   },
   {
-    memberName:
-      'Blockchain senior developer. \nOnchain Data Analytic \nShyngis',
+    memberName: 'Blockchain senior developer \nShyngis',
     description: 'In development since 2015',
     photo: Shyngis,
   },
