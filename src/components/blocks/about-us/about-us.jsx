@@ -27,25 +27,20 @@ const AboutUs = () => {
   const [hasAnimated, setHasAnimated] = useState(false);
   const [refPhoto, inView] = useInView();
   const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1200);
-  const [activeSlideIndex, setActiveSlideIndex] = useState(0);
+  const [activeSlideIndex, setActiveSlideIndex] = useState(1);
+
   const handleSlideChange = (swiper) => {
-    setActiveSlideIndex(swiper.activeIndex);
+    setActiveSlideIndex(swiper.activeIndex + 1);
   };
 
   const swiperRef = useRef(null);
 
   const handlerPrev = () => {
     swiperRef.current.slidePrev();
-    setActiveSlideIndex(
-      activeSlideIndex + 1 > 1 ? activeSlideIndex - 1 : activeSlideIndex,
-    );
   };
 
   const handlerNext = () => {
     swiperRef.current.slideNext();
-    setActiveSlideIndex(
-      activeSlideIndex + 1 <= 3 ? activeSlideIndex + 1 : activeSlideIndex,
-    );
   };
 
   useEffect(() => {
@@ -135,7 +130,7 @@ const AboutUs = () => {
         </StyledSwiper>
         <StyledPagination
           max={teamMembers.length}
-          currentCount={activeSlideIndex + 1}
+          currentCount={activeSlideIndex}
           onPrevClick={handlerPrev}
           onNextClick={handlerNext}
         />
