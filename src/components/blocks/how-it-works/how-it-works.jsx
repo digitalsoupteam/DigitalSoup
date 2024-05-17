@@ -28,10 +28,11 @@ const HowItWorks = () => {
     <Wrapper>
       <StyledHowItWorks>
         <Intro>
-          <IntroText>One of our super abilities</IntroText>
+          <IntroText>Cover all needs</IntroText>
           <IntroTitle size={TitleSize.BIG} as={'h2'}>
-            We can make & manage
-            <br /> your personal team
+            Full cycle of development
+            <br />
+            of any web3 solutions
           </IntroTitle>
           <Circles>
             <CirclesText>
@@ -51,7 +52,7 @@ const HowItWorks = () => {
               $left={{ mobile: '5px', desktop: '0' }}
               $right={{ mobile: 'auto', desktop: 'auto' }}
             >
-              Designers
+              Smart-contracts
             </Circle>
             <Circle
               $rotating
@@ -64,7 +65,7 @@ const HowItWorks = () => {
               $left={{ mobile: '88px', desktop: '159px' }}
               $right={{ mobile: 'auto', desktop: 'auto' }}
             >
-              Technical asignments
+              Backend
             </Circle>
             <Circle
               $rotating
@@ -75,7 +76,7 @@ const HowItWorks = () => {
               $left={{ mobile: 'auto', desktop: '388px' }}
               $right={{ mobile: '5px', desktop: 'auto' }}
             >
-              Developers
+              Frontend
             </Circle>
             <BackgroundCircle
               $top={{ mobile: '39px', desktop: '78px' }}
@@ -111,57 +112,49 @@ const HowItWorks = () => {
         </Intro>
         <Steps>
           <Title size={TitleSize.MEDIUM} as={'h2'}>
-            How it works?
+            How do we work?
           </Title>
           <StepsList>
             <StepsItem>
               <Count>1</Count>
               <StepsText>
-                We create a<br />
-                project plan
+                Calling and <br />
+                gathering information
               </StepsText>
             </StepsItem>
             <StepsItem>
               <Count>2</Count>
-              <StepsText>
-                Compile a list of
-                <br />
-                the required specialists
-              </StepsText>
+              <StepsText>*Draw up a technical development plan</StepsText>
             </StepsItem>
             <StepsItem>
               <Count>3</Count>
               <StepsText>
-                Conduct an HR campaign
-                <br />
-                to assemble a team
+                Agree and develop <br />
+                the product
               </StepsText>
             </StepsItem>
             <StepsItem>
               <Count>4</Count>
               <StepsText>
-                Begin implementing
-                <br />
-                the project
+                Conduct testing <br />
+                and auditing
               </StepsText>
             </StepsItem>
           </StepsList>
         </Steps>
         <Description>
           <DescriptionIntro>
-            We fully manage the team that we assemble for the project,
-            implementing all tasks to the fullest.
+            Once the audits are completed, we also create a web interface or
+            application for easy interaction with your product.
           </DescriptionIntro>
           <DescriptionText>
             <Text>
-              One of our super abilities is to create teams for projects. This
-              service is necessary when the customer's project is particularly
-              large and requires full immersion and 24/7 dedication.
-            </Text>
-            <Text>
-              For such tasks, we form independent teams of developers and smm
-              specialists and manage them for maximum efficiency of working with
-              your project.
+              *Formation of the technical plan is the most important stage of
+              development, it provides the complete structure of the future
+              product, all the interactions between contracts and other parts of
+              the application, and makes it possible to calculate the exact cost
+              and time of development. Future scalability is also envisioned at
+              the technical plan stage.
             </Text>
           </DescriptionText>
           <Button simple={true} link="https://t.me/dashewski" target="_blank">
