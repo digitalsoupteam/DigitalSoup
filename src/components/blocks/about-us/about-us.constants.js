@@ -1,4 +1,6 @@
 import Nikita from '../../../assets/nik-photo-2.png';
+import Andrei from '../../../assets/andrei.jpg';
+import Petr from '../../../assets/petr.jpg';
 import Kirill from '../../../assets/Kirill.jpg';
 import Alex from '../../../assets/Alex1.png';
 import Lina from '../../../assets/lina.jpg';
@@ -15,14 +17,24 @@ const teamMembers = [
     contact: 'https://t.me/dashewski',
   },
   {
-    memberName: 'Front-end teamlead \nKirill',
-    description: 'In development since 2019',
-    photo: Kirill,
+    memberName: 'Chief operating officer \nAndrei Feldman',
+    description: 'In crypto since 2018 \nIn crypto law since 2021',
+    photo: Andrei,
+  },
+  {
+    memberName: 'Chief Business Development Officer \nPetr Arlou',
+    description: 'In marketing since 2012 \nIn crypto since 2017',
+    photo: Petr,
   },
   {
     memberName: 'Solidity teamlead \nAleks',
     description: 'In development since 2016',
     photo: Alex,
+  },
+  {
+    memberName: 'Front-end teamlead \nKirill',
+    description: 'In development since 2019',
+    photo: Kirill,
   },
   {
     memberName: 'Art director \nEli',
