@@ -50,7 +50,7 @@ const Hero = () => {
             Auditing
           </Circle>
         </Circles>
-        <Text>Your full cycle web3 agency</Text>
+        <Text>Your full cycle web3 dev team</Text>
         <BackgroundCircle
           $top={{ mobile: '202px', desktop: '-15px' }}
           $bottom={{ mobile: 'auto', desktop: '0' }}

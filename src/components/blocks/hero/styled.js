@@ -33,7 +33,7 @@ const Text = styled(P)`
 
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
     font-size: 24px;
-    width: 166px;
+    width: 180px;
   }
 `;
 
