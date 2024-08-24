@@ -1,6 +1,22 @@
+import KrakenTapV1Preview from '../../../assets/cases/kraken-tap-v1/preview.jpg';
+import KrakenTapV1Intro from '../../../assets/cases/kraken-tap-v1/intro.jpg';
+import KrakenTapV1Gallery1 from '../../../assets/cases/kraken-tap-v1/gallery-1.jpg';
+import KrakenTapV1Gallery2 from '../../../assets/cases/kraken-tap-v1/gallery-2.png';
+import KrakenTapV1Gallery3 from '../../../assets/cases/kraken-tap-v1/gallery-3.png';
+import KrakenTapV1Gallery4 from '../../../assets/cases/kraken-tap-v1/gallery-4.png';
+
+import KrakenStakingPreview from '../../../assets/cases/kraken-staking/preview.jpg';
+import KrakenStakingIntro from '../../../assets/cases/kraken-staking/intro.jpg';
+import KrakenGallery1 from '../../../assets/cases/kraken-staking/gallery-1.png';
+import KrakenGallery2 from '../../../assets/cases/kraken-staking/gallery-2.png';
+import KrakenGallery3 from '../../../assets/cases/kraken-staking/gallery-3.png';
+import KrakenGallery4 from '../../../assets/cases/kraken-staking/gallery-4.png';
+
 import KarratPreview from '../../../assets/cases/karrat/preview.jpg';
 import KarratGallery1 from '../../../assets/cases/karrat/gallery-1.jpg';
 import KarratGallery2 from '../../../assets/cases/karrat/gallery-2.jpg';
+import KarratGallery3 from '../../../assets/cases/karrat/gallery-3.png';
+import KarratGallery4 from '../../../assets/cases/karrat/gallery-4.png';
 
 import ElectraPreview from '../../../assets/cases/electra/preview.png';
 import ElectraIntro from '../../../assets/cases/electra/intro.png';
@@ -11,27 +27,10 @@ import ElectraGallery4 from '../../../assets/cases/electra/gallery-4.png';
 import ElectraGallery5 from '../../../assets/cases/electra/gallery-5.png';
 import ElectraGallery6 from '../../../assets/cases/electra/gallery-6.png';
 
-import OonePreview from '../../../assets/cases/oone-world/preview.png';
-import OoneIntro from '../../../assets/cases/oone-world/intro.png';
-import OoneGallery1234 from '../../../assets/cases/oone-world/gallery-1-2-3-4.png';
-import OoneGallery5 from '../../../assets/cases/oone-world/gallery-5.png';
-import OoneGallery6 from '../../../assets/cases/oone-world/gallery-6.png';
-
-import GatoPreview from '../../../assets/cases/gato-ecosystem/preview.png';
-import GatoIntro from '../../../assets/cases/gato-ecosystem/intro.png';
-import GatoGallery1 from '../../../assets/cases/gato-ecosystem//gallery-1.png';
-import GatoGallery2 from '../../../assets/cases/gato-ecosystem//gallery-2.png';
-import GatoGallery3 from '../../../assets/cases/gato-ecosystem//gallery-3.png';
-import GatoGallery4 from '../../../assets/cases/gato-ecosystem//gallery-4.png';
-import GatoGallery5 from '../../../assets/cases/gato-ecosystem//gallery-5.png';
-import GatoGallery6 from '../../../assets/cases/gato-ecosystem//gallery-6.png';
-import GatoGallery7 from '../../../assets/cases/gato-ecosystem//gallery-7.png';
-import GatoGallery8 from '../../../assets/cases/gato-ecosystem//gallery-8.png';
-
 const KARRAT = {
   id: 'karrat',
   title: 'KARRAT',
-  prview_image: KarratPreview,
+  preview_image: KarratPreview,
   tags: ['NFT', 'Solidity smart-contracts', 'Web3', 'Business', 'Tokenization'],
   short:
     'Establishing a sophisticated NFT-tokenisation system for real estate in the UAE. Buying, selling and profiting from ownership of property shares from anywhere in the world in crypto.',
@@ -69,9 +68,26 @@ const KARRAT = {
           'The next step was to design the architecture of the project. Gathering together all the project entities and their connections with each other. Link to project files at the end of the page.',
       },
     ],
+    [
+      {
+        src: KarratGallery3,
+        title: 'Project design',
+        description: 'We made the design of the pages of the website of the future project.',
+      },
+      {
+        src: KarratGallery4,
+        title: 'Admin panel',
+        description: 'And for convenient project management - we have made a separate intuitive admin panel',
+      },
+    ],
   ],
   ending_text: 'Below are links to current versions of the project files:',
   links: [
+    {
+      icon: 'figma',
+      text: 'Web design',
+      link: 'https://www.figma.com/design/PGTLZYPpwtn7j3xGUTf4IN/Karrat-NFT-(Work)?node-id=3205-1034&t=QcSlOJsX639peyos-1',
+    },
     {
       icon: 'github',
       text: 'Smart-contracts',
@@ -88,7 +104,7 @@ const KARRAT = {
 const ELECTRA = {
   id: 'electra',
   title: 'Electra',
-  prview_image: ElectraPreview,
+  preview_image: ElectraPreview,
   tags: ['NFT', 'Solidity smart-contracts', 'Business', 'Web3', 'SMM'],
   short:
     'The creation of a micro-investment platform, designed as an electric transport NFT marketplace, has been accompanied by the launch of its own token.',
@@ -173,283 +189,171 @@ const ELECTRA = {
     },
     {
       icon: 'figma',
-      text: 'Design in Figma',
+      text: 'Web design',
       link: 'https://www.figma.com/file/KFYqtPB3rkuxsgvupWAPrH/Electra-NFT--Tilda-Sans-(Copy)?type=design&node-id=0%3A1&mode=design&t=VA8pt6NqtU9tD3NI-1',
     },
     {
       icon: 'github',
       text: 'Smart-contracts',
-      link: 'https://github.com/dashewski/ElectraProject',
+      link: 'https://github.com/digitalsoupteam/KarratRealEstateWeb3',
     },
     {
       icon: 'cyberscope',
       text: 'Security Audit',
-      link: 'https://drive.google.com/file/d/1Kr2PRBBVRY1s-v0sjY_cjKvXLqkrOW4P/view?usp=sharing',
+      link: 'https://drive.google.com/drive/folders/1Bhwc1wCiSIzxcRGsl0F_BfM4DgbBt2X_',
     },
   ],
 };
 
-const OONEWORLD = {
-  id: 'oone-world',
-  title: 'Oone world',
-  prview_image: OonePreview,
-  tags: ['SMM', 'Community management', 'Development Consulting', 'Design'],
+const KRAKEN_STAKING = {
+  id: 'kraken-staking',
+  title: 'Kraken staking',
+  preview_image: KrakenStakingPreview,
+  tags: ['web3', 'Solana Smart contracts', 'Design', 'Staking'],
   short:
-    'Design, promotion and community management for the OONE WORLD project. Sustainable ecosystem with its own blockchain and Drive&Earn applications on it.',
-  intro_image: OoneIntro,
+    'As part of our work with the project we needed to correct what had been done before us, as well as write staking for the ecosystem token.',
+  intro_image: KrakenStakingIntro,
   text_blocks: [
     {
-      title: 'Development a sustainable product ecosystem',
       text: [
-        'The Oone world project stands on the side of sustainable development and eco-friendly projects. One of the main differences of the project is the presence of its own blockchain, on which several Drive & Earn applications are developed, for business and for ordinary drivers.',
-        'This applications are aimed at changing the behavior of users while riding, as well as reducing the carbon layer and forming carbon offsets. As part of the B2C system for drivers - the application rewards them for driving correctly at high speeds, saving their fuel consumption and reducing carbon emissions several times.',
-        'The functionality of the Fleet management system application for business is much wider. Fleet management system allows you to fully control your truck fleet, show excessive fuel consumption, encourage drivers to drive carefully with awards, which reduces the risk of accidents and excessive fuel consumption, and also forms carbon offsets.',
-        'In this project, we needed to develop the social networks, conduct promotions, and also provide advisory assistance in the development stages, coin offers, and tokenomics.',
+        'Not so long ago we started to fully develop the Kraken ecosystem on the Solana network, which you can read about in other cases, the first task was to write Staking and add a web interface for it to the existing site. After studying the site, we realized that we should start by completely rewriting it, making the code modern and clean.',
       ],
     },
     {
-      title: 'Preparations for a Strong Start',
       text: [
-        'For the project, we have created social networks in various areas: a general Twitter and Telegram, where we share all the project news, as well as separate networks. THE.OONE for B2C drivers and OONE.FLEET for B2B Fleet management system.',
-        'Additionally, we established a Discord server and channels on Reddit and Medium. To promote the business product, OONE.FLEET, we set up a separate LinkedIn page to target potential customers. Initially, we developed the design by hand, but after several approvals, we concluded that a fully AI-generated design would be more fascinating and turned out to be excellent.',
-      ],
-    },
-    {
-      title: "What's next?",
-      text: [
-        'We needed to think about how to attract subscribers and, in principle, increase the visibility of the project, for this we prepared a number of contests with a prize drop in the form of USDT.',
-        'To increase the effectiveness of this action, we actively engaged in Zealy (formerly known as Crew3), in which we could create tasks by type: invite your friends, make a post about us, for this users received points that moved them in the rating, we distributed the best project gifts.',
-        'Next, we used the social networks with the highest potential for organic traffic - Twitter. We have collected a huge database of accounts suitable for us on the subject and daily made dozens of comments, retweets, likes to them, which gave an influx of attention in our direction.',
-      ],
-    },
-    {
-      title: 'Advertising and project development',
-      text: [
-        'The next steps were the preparation of advertising to attract subscribers to waiting for applications and the development of the Fleet management system business area. We are unable to disclose the specifics of our database collection and activities at LinkedIn due to the NDA.',
-        'In addition, we conducted an audit of tokenomics and whitepapper, and also helped with legal aspects in anticipation of preparing for the release of products. We hope that soon users will be able to evaluate these truly interesting, useful and interactive solutions.',
+        'The proposal from our side was to develop a system with modern point mechanics, which at the time of development (summer 2024) was the most relevant. Users were offered to block tokens of the project by accumulating points, which were registered in the database. Many projects went in this way: Linea, Scroll, Elixir. In the future, ecosystem and partner rewards are expected for project points.',
       ],
     },
   ],
   gallery: [
     [
       {
-        src: OoneGallery1234,
-        title: 'Cant publish because of NDA',
+        src: KrakenGallery1,
+        title: 'Rework',
         description:
-          'To begin with, we always organize chats with the customer so that, in addition to Zoom conferences for reviewing code or tasks, we can answer a question or ask our own questions 24/7, as well as inform about the development stages.',
+          "Webpage was written on a crooked react, we rewrote it completely on Next.js",
       },
       {
-        src: OoneGallery1234,
-        title: 'Cant publish because of NDA',
+        src: KrakenGallery2,
+        title: 'Engineering',
         description:
-          'The project consists of several parts: creation and preparation of all social networks, design, preparation of a convenient infrastructure for working with users.',
-      },
-    ],
-    [
-      {
-        src: OoneGallery1234,
-        title: '',
-        description:
-          "Within our communities, we've crafted interesting and interactive posts aimed at fostering a comprehensive understanding of the project's idea. Our goal is to enable every individual who joins the project's social networks to quickly acquaint themselves with its essence.",
-      },
-      {
-        src: OoneGallery1234,
-        title: '',
-        description:
-          'The use of AI-generated design has become a new step in our work. Previously, we had only designers for that work, now artificial intelligence makes the basis for the design, and our specialists refine the result as needed.',
+          'Then we agreed with the customer on the staking models, held several call-conversations',
       },
     ],
     [
       {
-        src: OoneGallery5,
-        title: 'Discord',
+        src: KrakenGallery3,
+        title: 'Designing',
         description:
-          'Our plan is to gather all community members and interact with them in one place, and we chose Discord as the most convenient platform for this purpose.',
+          "For staking, we developed a unique design. Link to the design project at the end of this page",
       },
       {
-        src: OoneGallery6,
-        title: 'Zealy',
+        src: KrakenGallery4,
+        title: 'Project presentation',
         description:
-          'This tool is one of the most important when advertising the launch of any project. An intuitive platform that motivates users to accomplish tasks and get rewards for that.',
+          'Additionally, we made a presentation of the project with all future ecosystem applications.  Link to full presentation at the end of this page',
       },
     ],
   ],
-  ending_text: 'View our projects at the links below:',
+  ending_text: 'Below are links to current versions of the project files:',
   links: [
     {
       icon: 'github',
-      text: 'Git hub',
-      link: 'https://github.com/dashewski',
+      text: 'Website github',
+      link: 'https://github.com/digitalsoupteam/KrakenWebsite',
     },
+    {
+      icon: 'figma',
+      text: 'Project design',
+      link: 'https://www.figma.com/design/1q746N6bAlTdCwRcqVGzOK/Kraken-(Copy)?node-id=252-34231&t=l85B23kqO81VhKCZ-1',
+    },
+    {
+      icon: 'github',
+      text: 'Staking program',
+      link: 'https://github.com/digitalsoupteam/KrakenStaking',
+    },
+    {
+      icon: 'gdrive',
+      text: 'Presentation',
+      link: 'https://drive.google.com/file/d/1lXXl56cRD1xS6TwdvS58ltz_hUDjFqWk/view?usp=sharing',
+    }
   ],
 };
 
-const GATO = {
-  id: 'gato-ecosystem',
-  title: 'Gato ecosystem',
-  prview_image: GatoPreview,
-  tags: [
-    'SMM',
-    'Web3',
-    'Community management',
-    'Design',
-    'Solidity smart-contracts',
-  ],
-  short:
-    'Design, promotion, development and community management for the Gato ecosystem and their unique diamond backed stablecoin.',
-  intro_image: GatoIntro,
+const KRAKEN_TAP_V1 = {
+  id: 'kraken-tap-v1',
+  title: 'Kraken tap-to-earn App',
+  preview_image: KrakenTapV1Preview,
+  tags: ['web3', 'Game dev', 'Mini apps', 'Game design'],
+  short: 'Developing a tap-to-earn application with a point and referral system to engage audiences within the Kraken ecosystem on the Solana network.',
+  intro_image: KrakenTapV1Intro,
   text_blocks: [
     {
-      title: "Product ecosystem and Diamond's stablecoin development",
       text: [
-        'The Gato ecosystem includes several separate large elements at once. First of all, this is a separate EVM L1 Blockchain, on which a number of products are being developed by Gato.',
-        'The first product that is useful for both ordinary users and businesses is the GUDS stablecoin. Thanks to this feature, GUDS can also be staked at 20% per annum, an opportunity that other stablecoins cannot offer. It is thanks to this provision that GUDS can also be staked at 20% per annum, which other stablecoins cannot afford.',
-        'Our task as part of the work with the project was the development, promotion, as well as community management. Moreover, we have many planned development tasks, and we are fully committed to addressing them effectively.',
+        'Working on the development of the Kraken ecosystem, we have taken into development an application aimed at actively attracting audiences from both web3 and web2. This is a tap-to-earn application available both on the project website and within telegram (telegram mini App). ',
       ],
     },
     {
-      title: 'What we have prepared for the start',
       text: [
-        'We have created all the necessary social networks for the project: Telegram chat, Discord - to communicate with the community. Project channels and separate channels for GUDS in Telegram and Twitter, as well as Reddit and Medium for the entire project. To promote business tokenization service - LinkedIn.',
-        'First of all, it is necessary to promote the GUDS stablecoin, because it is coming out very soon, so we needed to prepare posts for social networks that would reveal the essence of the product, its advantages and capabilities in stages.',
-        'Additionally, we have concluded all essential preparations required for launching advertising campaigns to promote the product across various networks.',
+        'For ease of audience engagement, we decided to capture the connection methods available to web2 and web3: via telegram id, both via wallet address and email. The user can start tapping right away, and when it comes time to airdrop, web2 users will be forced to set up a wallet with the Solana network, the more they will be motivated by the rewards received.',
       ],
     },
     {
-      title: 'How did we prepare for the launch of advertising?',
       text: [
-        'In addition to beautiful posts, it is equally important to be prepared in advance to work with traffic coming from advertising. We have prepared the necessary Discord rooms, because we plan to centralize the community from all social networks there.',
-        'To increase the effectiveness of advertising, we created tasks on Zealy platform. Zealy is a service where users can complete various tasks like posting about us, installing our wallet, and subscribing to our social media accounts. When users complete these tasks, they earn points that the system tracks.',
-        'One of the best ways to boost our advertising is through referrals. If someone invites their friends to join Zealy, it has a significant impact on the results because their friends can also participate and spread the word. The more points someone earns on Zealy, the better their chances of receiving rewards from the project, as mentioned in our advertisement.',
-      ],
-    },
-    {
-      title: 'Product development around GUDS',
-      text: [
-        'Within the Gato ecosystem, there were existing products ready or under development by another department of our company. Our focus revolved around the ecosystem elements around GUDS.',
-        'Development plans: wallet, exchanger, staking GUDS and a separate site for pre-order. First, you need to make a pre-order, in which people can pay in advance for the GUDS stablecoin, as part of the pre-order, buyers receive a separate drop of GATO coins.',
-        'Our approach entailed the following: considering the absence of a project bridge, the optimal idea was to collect pre-order payments through other networks, as well as fiat payments on a separate service. Then, we would leverage a combination of a bot, events, and a database to accumulate user data and facilitate the distribution of the drop.',
+        'For the application we made a backend that could be scaled by means of the protocol - a cluster, a user is bound to a specifically working instance of the service running on one of the servers. Such a solution would allow to handle millions of events per second.',
       ],
     },
   ],
   gallery: [
     [
       {
-        src: GatoGallery1,
-        title: 'Communication with our client',
+        src: KrakenTapV1Gallery1,
+        title: 'Development',
         description:
-          'To begin with, we always organize chats with the customer so that, in addition to Zoom conferences for reviewing code or tasks, we can answer a question or ask our own questions 24/7, as well as inform about the development stages.',
+          "Developed a backend system for scoring points and running the application, integrated into the project ecosystem",
       },
       {
-        src: GatoGallery2,
-        title: 'Planning the project',
+        src: KrakenTapV1Gallery2,
+        title: 'Accessibility',
         description:
-          'The project consists of several parts: creation and maintenance of social networks, activity in social networks, preparation and launch of promo, as well as the formation of a development plan and implementation.',
-      },
-    ],
-    [
-      {
-        src: GatoGallery3,
-        title: '',
-        description:
-          'We have created several community-friendly posts with hyperlinks and beautiful project-style animated images. Additionally, we have incorporated similar navigation elements into Discord.',
-      },
-      {
-        src: GatoGallery4,
-        title: '',
-        description:
-          "We've been using artificial intelligence for post creation, generating images for various projects at Midjorney. If needed, our designer provides final touches.",
+          'We made it possible to connect to the application both from the Solana network, and through mail and Telegram',
       },
     ],
     [
       {
-        src: GatoGallery5,
-        title: 'Discord',
+        src: KrakenTapV1Gallery3,
+        title: 'User friendly',
         description:
-          'In Discord rooms, which are seamlessly integrated into our traffic system, there are numerous possibilities. For instance, we have established an automatic faucet for test tokens and implemented wallet integration for our contests.',
+          "In addition, we have developed a pleasant and clear interface for users of the web version and telegram mini App",
       },
       {
-        src: GatoGallery6,
-        title: 'Zealy',
+        src: KrakenTapV1Gallery4,
+        title: 'Marketing tool',
         description:
-          'This tool is one of the most important when advertising the launch of any project. An intuitive platform that motivates users to accomplish tasks and get rewards for that.',
-      },
-    ],
-    [
-      {
-        src: GatoGallery7,
-        title: 'System planning',
-        description:
-          'Users in different networks participate in pre-order by sending money to a smart contract, fiat payments are made through the Stripe service. These elements send an event to the database. It collects information about payments and wallets of users.',
-      },
-      {
-        src: GatoGallery8,
-        title: 'Simpliest way to send guds',
-        description:
-          'Later we can parse this database and, based on the necessary data, use a pre-written bot to distribute GUDS tokens already in the Gato Chain network. This solution is the only optimal one due to the lack of a cross-chain bridge at the moment.',
+          'For additional audience engagement, they created a referral system',
       },
     ],
   ],
-  ending_text: 'View our projects at the links below:',
+  ending_text: 'Below are links to current versions of the project files:',
   links: [
     {
       icon: 'github',
-      text: 'Git hub',
-      link: 'https://github.com/dashewski',
+      text: 'GitHub Application',
+      link: 'https://github.com/digitalsoupteam/Kraken-tap-to-earn-frontend',
+    },
+    {
+      icon: 'figma',
+      text: 'Project design',
+      link: 'https://www.figma.com/design/1q746N6bAlTdCwRcqVGzOK/Kraken-(Copy)?node-id=396-23652',
+    },
+    {
+      icon: 'github',
+      text: 'Github Backend',
+      link: 'https://github.com/digitalsoupteam/Kraken-tap-to-earn',
     },
   ],
 };
 
-// const FOOTCITY = {
-//   id: 'foot-city',
-//   title: 'Foot City',
-//   prview_image: '/uploads/cases/foot_city/preview.png',
-//   tags: ['NFT', 'Design', 'Web3'],
-//   short:
-//     'Nothing supernatural. Our task was to quickly and beautifully draw a design for the NFT project website and the NFTs themselves in the bigfoot theme.',
-//   intro_image: '/uploads/cases/foot_city/intro.png',
-//   is_exception: 'true',
-//   text_blocks: [
-//     {
-//       title: 'Website development and NFT rendering',
-//       text: [
-//         'The site design you are currently viewing was initially created entirely by hand before being digitized for further refinement. Additionally, we have made an NFT collection, and would like to present a selection of them to you.',
-//       ],
-//       img: '/uploads/cases/foot_city/text-img-1.png',
-//     },
-//     {
-//       title:
-//         'We hand-drew screen after screen, turning them into beautiful art later on.',
-//       text: '',
-//       img: '/uploads/cases/foot_city/text-img-2.png',
-//     },
-//   ],
-//   gallery: [
-//     [
-//       {
-//         src: '/uploads/cases/foot_city/gallery-1.png',
-//         title: 'NFT example №1 - Dum',
-//         description: '',
-//       },
-//       {
-//         src: '/uploads/cases/foot_city/gallery-2.png',
-//         title: 'NFT example №2 - DEVIL',
-//         description: '',
-//       },
-//       {
-//         src: '/uploads/cases/foot_city/gallery-3.png',
-//         title: 'NFT example №3 - LIBERTY',
-//         description: '',
-//       },
-//       {
-//         src: '/uploads/cases/foot_city/gallery-4.png',
-//         title: 'NFT example №2 - HODL',
-//         description: '',
-//       },
-//     ],
-//   ],
-// };
-
-const CasesData = [KARRAT, ELECTRA, OONEWORLD, GATO];
+const CasesData = [KRAKEN_TAP_V1, KRAKEN_STAKING, KARRAT, ELECTRA,];
 
 export default CasesData;

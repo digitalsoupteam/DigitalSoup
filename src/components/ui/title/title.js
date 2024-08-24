@@ -9,7 +9,7 @@ const TitleSize = {
 
 const TitleSizeValue = {
   [TitleSize.BIG]: {
-    fontSizeDesktop: '50px',
+    fontSizeDesktop: '49px',
     fontSizeMobile: '31px',
   },
   [TitleSize.MEDIUM]: {

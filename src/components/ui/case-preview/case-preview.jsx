@@ -13,7 +13,7 @@ const CasePreview = ({ caseItem }) => {
   return (
     <StyledCasePreview>
       <TextContainer>
-        <StyledImage src={caseItem.prview_image} alt={caseItem.title} />
+        <StyledImage src={caseItem.preview_image} alt={caseItem.title} />
         <CaseTitle as="h3">{caseItem.title}</CaseTitle>
         <TagList tags={caseItem.tags} />
         <CaseText>{caseItem.short}</CaseText>
