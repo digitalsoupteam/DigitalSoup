@@ -12,7 +12,7 @@ import Victoria from '../../../assets/victroia.jpg';
 const teamMembers = [
   {
     memberName: 'CEO \nNikita Daszewski',
-    description: 'In SMM since 2015 \nIn Development since 2021',
+    description: 'In crypto since 2019',
     photo: Nikita,
     contact: 'https://t.me/dashewski',
   },
@@ -27,7 +27,7 @@ const teamMembers = [
     photo: Petr,
   },
   {
-    memberName: 'Solidity teamlead \nAleks',
+    memberName: 'Contracts & Backend teamlead \nAleks',
     description: 'In development since 2016',
     photo: Alex,
   },
@@ -37,14 +37,14 @@ const teamMembers = [
     photo: Kirill,
   },
   {
-    memberName: 'Art director \nEli',
-    description: 'In Design since 2014',
-    photo: Lina,
-  },
-  {
     memberName: 'Blockchain senior developer \nShyngis',
     description: 'In development since 2015',
     photo: Shyngis,
+  },
+  {
+    memberName: 'Senior designer \nEli',
+    description: 'in Design since 2017',
+    photo: Lina,
   },
   {
     memberName: 'Blockchain middle developer \nMateusz',
