@@ -1,4 +1,4 @@
-import Nikita from '../../../assets/nik-photo-2.png';
+import Nikita from '../../../assets/nik-photo-3.jpg';
 import Andrei from '../../../assets/andrei.jpg';
 import Petr from '../../../assets/petr.jpg';
 import Kirill from '../../../assets/Kirill.jpg';

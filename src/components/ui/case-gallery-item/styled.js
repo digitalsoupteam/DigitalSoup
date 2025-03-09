@@ -20,13 +20,9 @@ const GalleryItem = styled.div`
 
 const StyledImage = styled.img`
   width: 100%;
-  height: auto;
-  object-fit: contain;
-
-  @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
-    width: 100%;
-    height: auto;
-  }
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 1.72;
 `;
 
 const ItemTitle = styled(Title)`

@@ -5,6 +5,7 @@ const StyledTags = styled(Ul)`
   display: flex;
   flex-wrap: wrap;
   gap: 13px 10px;
+  height: fit-content;
 
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {
     gap: 13px 16px;

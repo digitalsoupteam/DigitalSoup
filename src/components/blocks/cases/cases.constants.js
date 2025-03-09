@@ -2,54 +2,55 @@ import KrakenTapV1Preview from '../../../assets/cases/kraken-tap-v1/preview.jpg'
 import KrakenTapV1Intro from '../../../assets/cases/kraken-tap-v1/intro.jpg';
 import KrakenTapV1Gallery1 from '../../../assets/cases/kraken-tap-v1/gallery-1.jpg';
 import KrakenTapV1Gallery2 from '../../../assets/cases/kraken-tap-v1/gallery-2.png';
-import KrakenTapV1Gallery3 from '../../../assets/cases/kraken-tap-v1/gallery-3.png';
-import KrakenTapV1Gallery4 from '../../../assets/cases/kraken-tap-v1/gallery-4.png';
+import KrakenTapV1Gallery3 from '../../../assets/cases/kraken-tap-v1/gallery-3.jpg';
+import KrakenTapV1Gallery4 from '../../../assets/cases/kraken-tap-v1/gallery-4.jpg';
 
-import KrakenStakingPreview from '../../../assets/cases/kraken-staking/preview.jpg';
-import KrakenStakingIntro from '../../../assets/cases/kraken-staking/intro.jpg';
-import KrakenGallery1 from '../../../assets/cases/kraken-staking/gallery-1.png';
-import KrakenGallery2 from '../../../assets/cases/kraken-staking/gallery-2.png';
-import KrakenGallery3 from '../../../assets/cases/kraken-staking/gallery-3.png';
-import KrakenGallery4 from '../../../assets/cases/kraken-staking/gallery-4.png';
+// import KrakenStakingPreview from '../../../assets/cases/kraken-staking/preview.jpg';
+// import KrakenStakingIntro from '../../../assets/cases/kraken-staking/intro.jpg';
+// import KrakenGallery1 from '../../../assets/cases/kraken-staking/gallery-1.png';
+// import KrakenGallery2 from '../../../assets/cases/kraken-staking/gallery-2.png';
+// import KrakenGallery3 from '../../../assets/cases/kraken-staking/gallery-3.png';
+// import KrakenGallery4 from '../../../assets/cases/kraken-staking/gallery-4.png';
 
 import KarratPreview from '../../../assets/cases/karrat/preview.jpg';
-import KarratGallery1 from '../../../assets/cases/karrat/gallery-1.jpg';
-import KarratGallery2 from '../../../assets/cases/karrat/gallery-2.jpg';
-import KarratGallery3 from '../../../assets/cases/karrat/gallery-3.png';
+import KarratIntro from '../../../assets/cases/karrat/intro.jpg';
+import KarratGallery1 from '../../../assets/cases/karrat/gallery-1.png';
+import KarratGallery2 from '../../../assets/cases/karrat/gallery-2.png';
+import KarratGallery3 from '../../../assets/cases/karrat/gallery-3.jpg';
 import KarratGallery4 from '../../../assets/cases/karrat/gallery-4.png';
 
 import ElectraPreview from '../../../assets/cases/electra/preview.png';
 import ElectraIntro from '../../../assets/cases/electra/intro.png';
 import ElectraGallery1 from '../../../assets/cases/electra/gallery-1.png';
-import ElectraGallery2 from '../../../assets/cases/electra/gallery-2.png';
-import ElectraGallery3 from '../../../assets/cases/electra/gallery-3.png';
+import ElectraGallery2 from '../../../assets/cases/electra/gallery-2.jpg';
+import ElectraGallery3 from '../../../assets/cases/electra/gallery-3.jpg';
 import ElectraGallery4 from '../../../assets/cases/electra/gallery-4.png';
-import ElectraGallery5 from '../../../assets/cases/electra/gallery-5.png';
-import ElectraGallery6 from '../../../assets/cases/electra/gallery-6.png';
+import RWAPlatformPreview from '../../../assets/cases/rwa-platform/preview.jpg';
+import RWAPlatformIntro from '../../../assets/cases/rwa-platform/intro.jpg';
 
 const KARRAT = {
   id: 'karrat',
-  title: 'KARRAT',
+  title: 'Tokenization of Dubai property square ft for real estate company Karrat',
   preview_image: KarratPreview,
   tags: ['NFT', 'Solidity smart-contracts', 'Web3', 'Business', 'Tokenization'],
   short:
     'Establishing a sophisticated NFT-tokenisation system for real estate in the UAE. Buying, selling and profiting from ownership of property shares from anywhere in the world in crypto.',
-  intro_image: KarratPreview,
+  intro_image: KarratIntro,
   text_blocks: [
     {
-      title: 'Tokenization of square meters for real estate company from Dubai',
       text: [
-        'Another project we have taken on is the Karrat Real Estate Company. It is an officially registered company authorized to provide services in buying, selling and valuation of real estate in the UAE.',
-        'The main objective of the project is tokenization of square feet of area of various real estate properties in the Arab Emirates, both completed and under construction or in preparation for it. The client had only an idea, so the entire plan for the technical architecture and its implementation became our task.',
+        'The RWA sector has been actively developing for several years now, the convenience of buying, managing and profiting, for example, from real estate makes this area a really profitable investment.',
+        'For Karrat, which has been officially operating in UAE for many years now, we have developed a crypto tokenized real estate platform. On this platform, users can purchase NFT tokens that imply a certain area of a particular property.',
+        'Then, depending on the property, users start receiving income from renting out the property, or receive a % of income when the property is sold at a higher price. The Karrath company receives the financial means with which people bought the area, with this money the company can buy new areas, or use those on which users spent money.',
+        'Documentation and project files can be found at the bottom of the page',
       ],
     },
     {
-      title: 'So, what does the project look like?',
       text: [
-        'In total, we prepared an architecture that fully satisfied the customer. As part of the project, we developed a system to produce NFTs for different types of real estate: excavation, under construction and finished real estate. Each new property can be easily divided by the customer into any number of NFTs (e.g. 1NFT = 1 square foot or 1NFT = 0.1 square foot).',
-        'NFTs can fulfill their own roles. If it is an NFT of a finished object, this NFT brings a permanent passive income to the owner when rented out, also NFT owners can participate in voting if, for example, there is an idea to sell the property at a super-profitable price. If such a vote is approved, all NFTs will be burned, and the owners will get back their value, as well as their profit from the sale of real real estate.',
-        'By the way, we have created a special vault for the money, which provides payments to all NFT holders, so they know exactly what they will get from the areas whose equivalent they have in the form of NFTs.',
-        'In addition, many other mechanics have been implemented: for example, NFT conversion, when for example a person bought NFT of square feet of excavation, and the object was completed to the stage of a finished object, and within this process there is a number of other complex economic mechanics, which are also implemented within the project.',
+        'As a result, we prepared an architecture that fully satisfied the client. As part of the project, we developed a system to create NFTs for different types of properties: excavation, under construction and finished properties. Each new property can be easily divided by the customer into any number of NFTs (e.g. 1NFT = 1 square foot or 1NFT = 0.1 square foot).',
+        'NFTs can fulfil their own roles. If it is an NFT of a finished property, such an NFT brings the owner a constant passive income when rented out, also NFT owners can participate in a vote if, for example, there is an idea to sell the property at a super favourable price. If such a vote is approved, all NFTs will be burnt, and the owners will get back their value, as well as the profit from the sale of the property.',
+        'By the way, we\'ve created a special vault for the money that ensures that all NFT holders are paid, so they know exactly what they\'ll get from the square footage they have equivalent to in the form of NFTs.',
+        'In addition, many other mechanics have been implemented: for example, NFT conversion, where, for example, a person has bought NFT square feet of excavation and the property has been completed to the finished property stage, and within that process there are a number of other complex economic mechanics that have also been implemented within the project.',
       ],
     },
   ],
@@ -57,27 +58,27 @@ const KARRAT = {
     [
       {
         src: KarratGallery1,
-        title: 'Process organization',
+        title: 'Project contracts',
         description:
-          "As usual, we organized convenient chats to discuss the project, made several calls. And gathered all the customer's ideas together.",
+          "First of all, discussing the task with the customer, we started to outline the architecture of the future project. First, we had to understand how many and which contracts would serve the project logic.",
       },
       {
         src: KarratGallery2,
-        title: 'Project architecture',
+        title: 'Project Architecture',
         description:
-          'The next step was to design the architecture of the project. Gathering together all the project entities and their connections with each other. Link to project files at the end of the page.',
+          'The project contained many different entities, the next task was to describe them, labelling relationships and access levels. It was not possible to fit all Layers into the slide. Here you can only see: objects, vaults and pricers.',
       },
     ],
     [
       {
         src: KarratGallery3,
-        title: 'Project design',
-        description: 'We made the design of the pages of the website of the future project.',
+        title: 'Frontend',
+        description: 'The frontend was designed and prepared for the project using TypeScript and web3 libraries. You can see the design in full at the link at the end of the page.',
       },
       {
         src: KarratGallery4,
-        title: 'Admin panel',
-        description: 'And for convenient project management - we have made a separate intuitive admin panel',
+        title: 'Administrator panel',
+        description: 'For ease of use we have written a separate administrator panel. Project managers can manage the project in a small terminal using simple and clear commands without programming knowledge.',
       },
     ],
   ],
@@ -103,7 +104,7 @@ const KARRAT = {
 
 const ELECTRA = {
   id: 'electra',
-  title: 'Electra',
+  title: 'Tokenisation of revenue electric vehicles in the form of NFTs',
   preview_image: ElectraPreview,
   tags: ['NFT', 'Solidity smart-contracts', 'Business', 'Web3', 'SMM'],
   short:
@@ -112,28 +113,21 @@ const ELECTRA = {
   ending_text: 'Below are links to current versions of the project files:',
   text_blocks: [
     {
-      title: 'Investment web3 project based on real business',
       text: [
-        'The Electra company is engaged in the sharing of electric vehicles (from scooters to cars) through its own application. They install and maintain vehicles, as well as provide service support for the sharing application in many warm countries of the world.',
-        'Before that, only large investors could invest in their project, but we came up with an excellent solution for them, which will allow them to collect investments from users, attracting more money to the company and giving these users the opportunity to earn with them by receiving crypto-income based on real business.',
-        'Our idea was to allow users from all over the world to easily invest in the purchase of real vehicles of the Electra project by buying their NFT equivalent. And Electra would pay income from the operation of this technique to NFT holders. This is a convenient way for a company to receive investments in its project without unnecessary difficulties from any person, and for users to receive dividends in crypto from a real business.',
+        'Electra is a real business in Europe and Cyprus. Electra provides e-vehicle rental services: from e-scooters to electric cars through a convenient iOS and Android application.',
+        'It was on the basis of the existing business that the idea of tokenizing it in the form of NFT was born. Prior to that, the project had been expanding by attracting investment from large capital. After tokenization, the company opened the possibility for private crypto users to invest in the project and earn passive income.',
+        'Anyone was able to buy an crypto analogue of vehicles in the form of NFT. With this money, Electra put a new vehicle into work, and the NFT owner received income from its lease in the form of tokens that could be exchanged for USDT (Dollar) on the project\'s website.',
+        'Documentation and project files can be found at the bottom of the page.',
       ],
     },
     {
-      title: 'From several ideas, we chose the best',
       text: [
-        'Project allows the user to purchase Electra NFT (in any amount), NFT is the key to receive the staking reward. With the money raised from NFT, Electra puts real equipment into operation in one of the regions of stay.',
-        'The user can choose one of two types of staking: stable (receiving a stable % of income for the purchase of NFT) and flex (receiving a part of the income from equipment purchased in the form of NFT every month).',
-        'The main and most interesting type of staking is the more risky Flex, but the yield on flex can reach 60% per annum. For the company and for the user, this is an interesting mechanic. Income data is open and official, so the project cannot deceive users either.',
-        'In addition to creating the main structure, sub-structures were prepared that are responsible for the details of interaction and other contracts.',
+        'So, we created smart contracts for the platform that allowed the user to buy NFT and stake it for 1/3/5 years, such a long term was necessary for Electra to put the e-vehicle to work and make a profit. The user could choose the format of staking and receive a fixed % per annum or 50% monthly of the income of the technique. After the chosen term, the NFT would be cancelled and the user would get back the invested funds. ',
       ],
     },
     {
-      title: 'What does the project look like now?',
       text: [
-        'Now, users can select and change the type of rewards. NFTs have a lifetime equivalent to real vehicles, after which the used NFT can be returned to Electra for a fraction of the cost.',
-        'Users have the option to exchange or sell their NFTs on the OTC market at any time. Alternatively, they can sell them back to Electra after two years of ownership.',
-        'Users receive rewards in ELCT tokens, which they can easily buy or sell on the Electra marketplace website at any time. ELCT is available for exchange with USDT, USDC, BUSD, and BNB. Additionally, users can stake the received ELCT tokens at a small percentage to increase their own profits from the Electra project.',
+        'Eventually we started selling NFT and the project tokens themselves. After selling NFT for ~$50,000 the project found a buyer. Electra is now going through the sale procedure to a new owner of the business, including the sale includes web3 component, which was resold together with the main business bringing additional income of more than 130% of the development cost.',
       ],
     },
   ],
@@ -141,43 +135,29 @@ const ELECTRA = {
     [
       {
         src: ElectraGallery1,
-        title: 'Communication with our client',
+        title: 'Basic task',
         description:
-          'To begin with, we always organize chat sessions with the customer. This allows us to not only hold Zoom conferences for code or task reviews but also to address questions, ask our own questions, and provide updates on the development stages 24/7.',
+          'At the very start we needed to develop a project implementation plan. Smart contracts included in it. It was decided to use the BSC network, due to the availability and popularity of the associated exchange Binance.',
       },
       {
         src: ElectraGallery2,
-        title: 'Planning the project',
+        title: 'Implementation options',
         description:
-          'The project consists of several parts: creating the project structure and writing the code, designing the project, and building the NFT platform. We started, of course, by drawing up the structure of the project.',
+          'We proposed several implementation paths in which users were able to buy NFTs using different tokens of the BSC network, stake the NFTs in one of several protocols and get ELCT tokens based on that. ',
       },
     ],
     [
       {
         src: ElectraGallery3,
-        title: 'Coding',
+        title: 'Finalisation of work',
         description:
-          'In just a few weeks, we‘ve created all the necessary smart contracts and covered them with tests, and also worked on the security of the project. We also made a contract for the tokens of the Electra project - ELCT.',
+          'Within a month we completed all the code, covered it with autotests to identify various non-working usercases, fixed them. Next, the contracts were sent for audit. The auditing company found no critical or even medium level bugs. The full version of the audit is at the bottom of the page.',
       },
       {
         src: ElectraGallery4,
-        title: 'Types of staking',
+        title: 'Frontend',
         description:
-          'After the tests, we finalized the logic of certain project elements and added new features. For instance, we introduced a feature that allows users to switch between the Flex and Stable staking formats at any time, enabling them to choose the most profitable format for their needs.',
-      },
-    ],
-    [
-      {
-        src: ElectraGallery5,
-        title: 'Website design',
-        description:
-          'For convenient user interaction with the project, we have developed a well-thought-out design. You can see it at the link at the bottom of the page on Figma.',
-      },
-      {
-        src: ElectraGallery6,
-        title: 'Project code',
-        description:
-          "Project code have been security audited and we don't have a single exploit or critical bug.",
+          'After being audited by an audit company, we started making the frontend of the site and linking it to contracts. As usual, TypeScript and web3 libraries. The design of the project, we made at the stage of smart contracts development, you can see the full design file at the bottom of the page.',
       },
     ],
   ],
@@ -205,84 +185,84 @@ const ELECTRA = {
   ],
 };
 
-const KRAKEN_STAKING = {
-  id: 'kraken-staking',
-  title: 'Kraken staking',
-  preview_image: KrakenStakingPreview,
-  tags: ['web3', 'Solana Smart contracts', 'Design', 'Staking'],
-  short:
-    'As part of our work with the project we needed to correct what had been done before us, as well as write staking for the ecosystem token.',
-  intro_image: KrakenStakingIntro,
-  text_blocks: [
-    {
-      text: [
-        'Not so long ago we started to fully develop the Kraken ecosystem on the Solana network, which you can read about in other cases, the first task was to write Staking and add a web interface for it to the existing site. After studying the site, we realized that we should start by completely rewriting it, making the code modern and clean.',
-      ],
-    },
-    {
-      text: [
-        'The proposal from our side was to develop a system with modern point mechanics, which at the time of development (summer 2024) was the most relevant. Users were offered to block tokens of the project by accumulating points, which were registered in the database. Many projects went in this way: Linea, Scroll, Elixir. In the future, ecosystem and partner rewards are expected for project points.',
-      ],
-    },
-  ],
-  gallery: [
-    [
-      {
-        src: KrakenGallery1,
-        title: 'Rework',
-        description:
-          "Webpage was written on a crooked react, we rewrote it completely on Next.js",
-      },
-      {
-        src: KrakenGallery2,
-        title: 'Engineering',
-        description:
-          'Then we agreed with the customer on the staking models, held several call-conversations',
-      },
-    ],
-    [
-      {
-        src: KrakenGallery3,
-        title: 'Designing',
-        description:
-          "For staking, we developed a unique design. Link to the design project at the end of this page",
-      },
-      {
-        src: KrakenGallery4,
-        title: 'Project presentation',
-        description:
-          'Additionally, we made a presentation of the project with all future ecosystem applications.  Link to full presentation at the end of this page',
-      },
-    ],
-  ],
-  ending_text: 'Below are links to current versions of the project files:',
-  links: [
-    {
-      icon: 'github',
-      text: 'Website github',
-      link: 'https://github.com/digitalsoupteam/KrakenWebsite',
-    },
-    {
-      icon: 'figma',
-      text: 'Project design',
-      link: 'https://www.figma.com/design/1q746N6bAlTdCwRcqVGzOK/Kraken-(Copy)?node-id=252-34231&t=l85B23kqO81VhKCZ-1',
-    },
-    {
-      icon: 'github',
-      text: 'Staking program',
-      link: 'https://github.com/digitalsoupteam/KrakenStaking',
-    },
-    {
-      icon: 'gdrive',
-      text: 'Presentation',
-      link: 'https://drive.google.com/file/d/1lXXl56cRD1xS6TwdvS58ltz_hUDjFqWk/view?usp=sharing',
-    }
-  ],
-};
+// const KRAKEN_STAKING = {
+//   id: 'kraken-staking',
+//   title: 'Kraken staking',
+//   preview_image: KrakenStakingPreview,
+//   tags: ['web3', 'Solana Smart contracts', 'Design', 'Staking'],
+//   short:
+//     'As part of our work with the project we needed to correct what had been done before us, as well as write staking for the ecosystem token.',
+//   intro_image: KrakenStakingIntro,
+//   text_blocks: [
+//     {
+//       text: [
+//         'Not so long ago we started to fully develop the Kraken ecosystem on the Solana network, which you can read about in other cases, the first task was to write Staking and add a web interface for it to the existing site. After studying the site, we realized that we should start by completely rewriting it, making the code modern and clean.',
+//       ],
+//     },
+//     {
+//       text: [
+//         'The proposal from our side was to develop a system with modern point mechanics, which at the time of development (summer 2024) was the most relevant. Users were offered to block tokens of the project by accumulating points, which were registered in the database. Many projects went in this way: Linea, Scroll, Elixir. In the future, ecosystem and partner rewards are expected for project points.',
+//       ],
+//     },
+//   ],
+//   gallery: [
+//     [
+//       {
+//         src: KrakenGallery1,
+//         title: 'Rework',
+//         description:
+//           "Webpage was written on a crooked react, we rewrote it completely on Next.js",
+//       },
+//       {
+//         src: KrakenGallery2,
+//         title: 'Engineering',
+//         description:
+//           'Then we agreed with the customer on the staking models, held several call-conversations',
+//       },
+//     ],
+//     [
+//       {
+//         src: KrakenGallery3,
+//         title: 'Designing',
+//         description:
+//           "For staking, we developed a unique design. Link to the design project at the end of this page",
+//       },
+//       {
+//         src: KrakenGallery4,
+//         title: 'Project presentation',
+//         description:
+//           'Additionally, we made a presentation of the project with all future ecosystem applications.  Link to full presentation at the end of this page',
+//       },
+//     ],
+//   ],
+//   ending_text: 'Below are links to current versions of the project files:',
+//   links: [
+//     {
+//       icon: 'github',
+//       text: 'Website github',
+//       link: 'https://github.com/digitalsoupteam/KrakenWebsite',
+//     },
+//     {
+//       icon: 'figma',
+//       text: 'Project design',
+//       link: 'https://www.figma.com/design/1q746N6bAlTdCwRcqVGzOK/Kraken-(Copy)?node-id=252-34231&t=l85B23kqO81VhKCZ-1',
+//     },
+//     {
+//       icon: 'github',
+//       text: 'Staking program',
+//       link: 'https://github.com/digitalsoupteam/KrakenStaking',
+//     },
+//     {
+//       icon: 'gdrive',
+//       text: 'Presentation',
+//       link: 'https://drive.google.com/file/d/1lXXl56cRD1xS6TwdvS58ltz_hUDjFqWk/view?usp=sharing',
+//     }
+//   ],
+// };
 
 const KRAKEN_TAP_V1 = {
   id: 'kraken-tap-v1',
-  title: 'Kraken tap-to-earn App',
+  title: 'Tap-to-earn application\u00a0development',
   preview_image: KrakenTapV1Preview,
   tags: ['web3', 'Game dev', 'Mini apps', 'Game design'],
   short: 'Developing a tap-to-earn application with a point and referral system to engage audiences within the Kraken ecosystem on the Solana network.',
@@ -290,17 +270,20 @@ const KRAKEN_TAP_V1 = {
   text_blocks: [
     {
       text: [
-        'Working on the development of the Kraken ecosystem, we have taken into development an application aimed at actively attracting audiences from both web3 and web2. This is a tap-to-earn application available both on the project website and within telegram (telegram mini App). ',
+        'Working on the development of the Kraken ecosystem, we undertook the development of an application aimed at actively attracting the audience from both web3 and web2. This is a tap-to-earn application available both on the project website and in telegram (telegram mini App).',
+        'The main task of the user was to log in to the game every day and tap the maximum number of times in a limited period of time, thereby earning points. Such mechanics stimulate strong involvement of people in the project due to gamification and belief in getting rewards.',
+        'Documentation and project files can be found at the bottom of the page.',
       ],
     },
     {
       text: [
-        'For ease of audience engagement, we decided to capture the connection methods available to web2 and web3: via telegram id, both via wallet address and email. The user can start tapping right away, and when it comes time to airdrop, web2 users will be forced to set up a wallet with the Solana network, the more they will be motivated by the rewards received.',
+        'In tap-to-earn app we added a rating system that was updated every hour so as not to load the server too much and a referral system that would allow users to earn more points. This way users could watch their rating and earn more points by inviting friends.',
+        'For an app, this kind of referral mechanics is one of the best marketing tools to expand the audience without additional financial costs.',
       ],
     },
     {
       text: [
-        'For the application we made a backend that could be scaled by means of the protocol - a cluster, a user is bound to a specifically working instance of the service running on one of the servers. Such a solution would allow to handle millions of events per second.',
+        'In total, we have prepared an application available for scalability, capable of handling many simultaneous requests. We also worked with servers and configured the ability to automatically reboot and save the database in case of a server crash. The VDServer for the application was based in Singapore, with 16 efficient cores.',
       ],
     },
   ],
@@ -308,29 +291,29 @@ const KRAKEN_TAP_V1 = {
     [
       {
         src: KrakenTapV1Gallery1,
-        title: 'Development',
+        title: 'Backend',
         description:
-          "Developed a backend system for scoring points and running the application, integrated into the project ecosystem",
+          "We started work with planning, setting goals. The task was such that the backend could handle at least 100.000 dau (daily active users). Tarantool was chosen as a solution combining non-blocking Lua application server with NoSQL database.",
       },
       {
         src: KrakenTapV1Gallery2,
-        title: 'Accessibility',
+        title: 'Frontend',
         description:
-          'We made it possible to connect to the application both from the Solana network, and through mail and Telegram',
+          'We wrote the visual part of the application in TypeScript, using web3 libraries to connect tap-to-earn application to wallets on Solana network. We also added additional authorisation by Telegram ID, Email for web2 users, the wallet for them was generated automatically.',
       },
     ],
     [
       {
         src: KrakenTapV1Gallery3,
-        title: 'User friendly',
+        title: 'Interface',
         description:
-          "In addition, we have developed a pleasant and clear interface for users of the web version and telegram mini App",
+          "The visuals should also be intuitive, simple and practical. For the app we chose a nice colour scheme reflecting space, ocean and crypt. We made beautiful animated elements, and the taps themselves were accompanied by sounds and visual elements. You can tap from 5 fingers at the same time!",
       },
       {
         src: KrakenTapV1Gallery4,
-        title: 'Marketing tool',
+        title: 'Load testing',
         description:
-          'For additional audience engagement, they created a referral system',
+          'As part of the tests, an issue was discovered on the Tarantool solution side that was slowing down the application. After fixing it, it was possible to reach up to 4000 requests per second at the slowest point. That\'s over 14 million requests in an hour, exceeding the target of 100,000 dau. ',
       },
     ],
   ],
@@ -354,6 +337,25 @@ const KRAKEN_TAP_V1 = {
   ],
 };
 
-const CasesData = [KRAKEN_TAP_V1, KRAKEN_STAKING, KARRAT, ELECTRA,];
+const RWA_PLATFORM = {
+  id: 'rwa-platform',
+  title: 'RWA Platform',
+  preview_image: RWAPlatformPreview,
+  tags: ['web3', 'Design', 'Smart-Contracts', 'Backend', 'Frontend', 'Artificial intelligence'],
+  short: 'Developing a platform for crowdfunding RWA projects and trading RWA assets',
+  intro_image: RWAPlatformIntro,
+  text_blocks: [
+    {
+      title: 'A platform where businesses from the real sector will be able to create their own tokens to raise investments.',
+      text: [
+        'The RWA market continues to develop, and new interesting projects appear along with it. We are developing one of such projects. The RWA Platform project is a convenient crowdfunding platform where any businessman can create ‘crypto shares’ of his future company and, through their sale, raise the funds needed to launch the business.',
+        'Buyers of its ‘crypto shares’ - tokens are guaranteed to claim a return of their funds and a pre-determined in the protocol % of profit from investments in a future company. The protocol includes several degrees of security, token creators undergo various verifications, as well as evaluation by artificial intelligence. '
+      ],
+    },
+  ],
+  gallery: []
+}
+
+const CasesData = [RWA_PLATFORM, KRAKEN_TAP_V1, ELECTRA, KARRAT,];
 
 export default CasesData;

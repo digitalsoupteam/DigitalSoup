@@ -3,6 +3,7 @@ import P from '../../../elements/p';
 import { Title } from '../../ui/title/title';
 
 const StyledCaseText = styled.div`
+  white-space: pre-wrap;
   padding: 82px 0;
 
   @media screen and (min-width: ${(props) => props.theme.contentWidthDesktop}) {

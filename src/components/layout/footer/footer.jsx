@@ -7,7 +7,7 @@ const Footer = () => {
     <StyledFooter>
       <Wrapper>
         <InnerContainer>
-          <Copyright>2024 - Digital Soup Agency</Copyright>
+          <Copyright>2025 - Digital Soup Agency</Copyright>
         </InnerContainer>
       </Wrapper>
     </StyledFooter>

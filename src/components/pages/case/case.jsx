@@ -7,19 +7,19 @@ import CaseText from '../../blocks/case-text/case-text';
 import CaseGallery from '../../blocks/case-gallery/case-gallery';
 import CaseEnding from '../../blocks/case-ending/case-ending';
 
-const generateCaseContent = (textBlocks, galleryBlcoks, isException) => {
+const generateCaseContent = (textBlocks, galleryBlocks, isException) => {
   let result = [];
-  if (!textBlocks && !galleryBlcoks) {
+  if (!textBlocks && !galleryBlocks) {
     return result;
   }
   if (isException) {
-    result = [...textBlocks, ...galleryBlcoks];
+    result = [...textBlocks, ...galleryBlocks];
   } else {
     textBlocks.forEach((text, index) => {
       result.push(text);
 
-      if (galleryBlcoks[index]) {
-        result.push(galleryBlcoks[index]);
+      if (galleryBlocks[index]) {
+        result.push(galleryBlocks[index]);
       }
     });
   }
