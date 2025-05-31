@@ -92,7 +92,7 @@ const KARRAT = {
     {
       icon: 'github',
       text: 'Smart-contracts',
-      link: 'https://github.com/dashewski/ElectraNFTmarketplace',
+      link: 'https://github.com/digitalsoupteam/KarratRealEstateWeb3',
     },
     {
       icon: 'gdrive',
