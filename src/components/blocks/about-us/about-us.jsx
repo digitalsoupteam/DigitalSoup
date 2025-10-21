@@ -75,20 +75,20 @@ const AboutUs = () => {
             A few words about us
           </Title>
           <DescriptionText>
-            A few years ago I got the idea to make a studio for crypto-projects
-            development on the basis of my website development agency. I myself
-            was interested in cryptocurrency and was learning a little about
-            smart contracts.
+          A few years ago, I came up with the idea of creating a studio for 
+          crypto project development, based on my existing web development agency. 
+          I had always been interested in crypto and was gradually learning 
+          about smart contracts and AI.
           </DescriptionText>
           <DescriptionText>
-            A little later we received an order from my old clients, then they
-            ordered not only a website, but also gave the task to create an
-            NFT-collection with interaction logic. Then we took on the project,
-            and I started building our team.
+          Not long after, one of my long-time clients reached out with a new order 
+          — not just for a website, but also for an NFT collection with custom 
+          interaction logic. We took on the challenge, and that’s when I began assembling our team.
           </DescriptionText>
           <DescriptionText>
-            At the moment, DigitalSoup employs 8 people and 3 managers in their
-            areas, who are always ready to discuss your project with you!
+          Today, DigitalSoup has grown to a team of eight specialists and three 
+          dedicated managers in their respective fields, always ready to discuss 
+          your next project with you!
           </DescriptionText>
         </Description>
         <StyledSwiper

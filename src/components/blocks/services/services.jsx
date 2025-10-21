@@ -14,21 +14,22 @@ import { Title, TitleSize } from '../../ui/title/title';
 
 const servicesItems = [
   {
-    title: 'Tokenization',
-    text: 'Turning any assets into NFTs and tokens, creating usage mechanics for any business',
-  },
-  {
     title: 'Smart Contracts',
     text: 'Writing smart contracts for any tasks, exchangers, voting, DAO, tokens, NFTs, steaking and more',
   },
   {
-    title: 'Advisory&Auditing',
-    text: 'Consulting on development, writing technical assignments, conducting security audits of existing projects',
+    title: 'Ai Solutions',
+    text: 'Integration of artificial intelligence into any business — chatbots, analytics, automation and custom AI models',
+  },
+  {
+    title: 'RWA Tokenization',
+    text: 'Turning any assets into NFTs and tokens, creating usage mechanics for any business',
   },
   {
     title: 'Web3 interfaces',
     text: 'Creation of any web3 platforms, exchangers, NFT marketplaces and wallets',
   },
+  
 ];
 
 const Services = () => {

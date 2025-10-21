@@ -32,7 +32,7 @@ const HowItWorks = () => {
           <IntroTitle size={TitleSize.BIG} as={'h2'}>
             Full cycle of development
             <br />
-            of any web3 solutions
+            of any web3 and Ai solutions
           </IntroTitle>
           <Circles>
             <CirclesText>
@@ -52,7 +52,7 @@ const HowItWorks = () => {
               $left={{ mobile: '5px', desktop: '0' }}
               $right={{ mobile: 'auto', desktop: 'auto' }}
             >
-              Smart-contracts
+              Backend
             </Circle>
             <Circle
               $rotating
@@ -65,7 +65,7 @@ const HowItWorks = () => {
               $left={{ mobile: '88px', desktop: '159px' }}
               $right={{ mobile: 'auto', desktop: 'auto' }}
             >
-              Backend
+              Smart-contracts and AI 
             </Circle>
             <Circle
               $rotating

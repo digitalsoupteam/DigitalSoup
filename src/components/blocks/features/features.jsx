@@ -3,10 +3,9 @@ import Wrapper from '../../layout/wrapper/wrapper';
 import { StyledFeatures, FeaturesList, FeatureItem } from './styled';
 
 const featuresList = [
-  { name: 'Wallets', weight: '900' },
+  { name: 'Artificial Intelligence', weight: '900' },
   { name: 'RWA', weight: '400' },
-  { name: 'Coins', weight: '700' },
-  { name: 'web3', weight: '400' },
+  { name: 'Web3', weight: '400' },
   { name: 'Scripts', weight: '700' },
   { name: 'Smart Contracts', weight: '900' },
   { name: 'NFT', weight: '400' },

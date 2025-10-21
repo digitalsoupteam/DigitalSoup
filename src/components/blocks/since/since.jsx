@@ -15,7 +15,7 @@ const Since = () => {
         <TextContainer>
           <TextSpacing>
             Our team consists of 8 professionals who are fanatically in love
-            with the world of web3 and crypto
+            with the world of web3, crypto and Ai 
           </TextSpacing>
         </TextContainer>
         <BackgroundCircle
