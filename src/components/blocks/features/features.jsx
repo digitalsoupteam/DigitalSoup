@@ -11,7 +11,6 @@ const featuresList = [
   { name: 'NFT', weight: '400' },
   { name: 'Bots', weight: '900' },
   { name: 'Tokenization', weight: '400' },
-  { name: 'Exchangers', weight: '700' },
   { name: 'Design', weight: '400' },
 ];
 
