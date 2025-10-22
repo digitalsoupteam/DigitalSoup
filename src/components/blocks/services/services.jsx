@@ -19,7 +19,7 @@ const servicesItems = [
   },
   {
     title: 'Ai Solutions',
-    text: 'Integration of artificial intelligence into any business — chatbots, analytics, automation and custom AI models',
+    text: 'AI-Integration into business — from chatbots and analytics to automation and custom AI solutions',
   },
   {
     title: 'RWA Tokenization',

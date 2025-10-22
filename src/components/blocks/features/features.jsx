@@ -9,9 +9,8 @@ const featuresList = [
   { name: 'Scripts', weight: '700' },
   { name: 'Smart Contracts', weight: '900' },
   { name: 'NFT', weight: '400' },
-  { name: 'Bots', weight: '900' },
+  { name: 'Trading bots', weight: '900' },
   { name: 'Tokenization', weight: '400' },
-  { name: 'Design', weight: '400' },
 ];
 
 const Features = () => {
