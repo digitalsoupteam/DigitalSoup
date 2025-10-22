@@ -5,7 +5,7 @@ import KrakenTapV1Gallery2 from "../../../assets/cases/kraken-tap-v1/gallery-2.p
 import KrakenTapV1Gallery3 from "../../../assets/cases/kraken-tap-v1/gallery-3.jpg";
 import KrakenTapV1Gallery4 from "../../../assets/cases/kraken-tap-v1/gallery-4.jpg";
 import Krdesign from "../../../assets/cases/kraken-tap-v1/kr-design.jpg";
-import Krstake from "../../../assets/cases/kraken-tap-v1/kr-stake.jpg";
+import Krstake from "../../../assets/cases/kraken-tap-v1/kr-stake.png";
 
 // import KrakenStakingPreview from '../../../assets/cases/kraken-staking/preview.jpg';
 // import KrakenStakingIntro from '../../../assets/cases/kraken-staking/intro.jpg';
@@ -20,7 +20,7 @@ import KarratGallery1 from "../../../assets/cases/karrat/gallery-1.png";
 import KarratGallery2 from "../../../assets/cases/karrat/gallery-2.png";
 import KarratGallery3 from "../../../assets/cases/karrat/gallery-3.jpg";
 import KarratGallery4 from "../../../assets/cases/karrat/gallery-4.png";
-import Karatdesign from "../../../assets/cases/karrat/karat-design.jpg";
+import Karatdesign from "../../../assets/cases/karrat/karat-design.png";
 
 import ElectraPreview from "../../../assets/cases/electra/preview.png";
 import ElectraIntro from "../../../assets/cases/electra/intro.png";
@@ -28,15 +28,15 @@ import ElectraGallery1 from "../../../assets/cases/electra/gallery-1.png";
 import ElectraGallery2 from "../../../assets/cases/electra/gallery-2.jpg";
 import ElectraGallery3 from "../../../assets/cases/electra/gallery-3.jpg";
 import ElectraGallery4 from "../../../assets/cases/electra/gallery-4.png";
-import ElectraDesign from "../../../assets/cases/electra/el-design.jpg";
-import ElectraStaking from "../../../assets/cases/electra/el-stake.jpg";
+import ElectraDesign from "../../../assets/cases/electra/el-design.png";
+import ElectraStaking from "../../../assets/cases/electra/el-stake.png";
 
 import RWAPlatformPreview from "../../../assets/cases/rwa-platform/preview.jpg";
 import RWAPlatformIntro from "../../../assets/cases/rwa-platform/intro.jpg";
-import RwaDesign from "../../../assets/cases/rwa-platform/rwa-design.jpg";
-import RwaUx from "../../../assets/cases/rwa-platform/rwa-ux1.jpg";
-import RwaOwner from "../../../assets/cases/rwa-platform/rwa-owner.jpg";
-import RwaSellBuy from "../../../assets/cases/rwa-platform/rwa-buysell.jpg";
+import RwaDesign from "../../../assets/cases/rwa-platform/rwa-design.png";
+import RwaUx from "../../../assets/cases/rwa-platform/rwa-ux1.png";
+import RwaOwner from "../../../assets/cases/rwa-platform/rwa-owner.png";
+import RwaSellBuy from "../../../assets/cases/rwa-platform/rwa-buysell.png";
 
 const KARRAT = {
   id: "karrat",
